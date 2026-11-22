@@ -1300,6 +1300,78 @@
       if (document.getElementById('prodBtn-BL')) document.getElementById('prodBtn-BL').innerText = `Business Loan 10–24Cr (${allLeadsData.filter(l => !l.is_pid).length})`;
     }
 
+    // Direct Kylas CRM REST API Sync Engine (Direct client-side sync on GitHub Pages)
+    const KYLAS_API_KEY = '1e205532-35e3-4316-82de-0cb601071df7:22519';
+    const KYLAS_API_HOST = 'https://api.kylas.io/v1';
+
+    async function syncWithKylasDirect(forceManual = false) {
+      if (!allLeadsData || !allLeadsData.length) return false;
+      const leadIds = allLeadsData.map(l => parseInt(l.lead_id)).filter(id => !isNaN(id) && id > 0);
+      if (!leadIds.length) return false;
+
+      let anyUpdated = false;
+      const stageStoreMap = {};
+
+      for (let i = 0; i < leadIds.length; i += 50) {
+        const batch = leadIds.slice(i, i + 50);
+        const payload = {
+          fields: ["id", "firstName", "lastName", "companyName", "pipelineStage", "customFieldValues", "updatedAt"],
+          jsonRule: {
+            condition: "AND",
+            rules: [{ operator: "in", id: "id", field: "id", type: "long", value: batch }],
+            valid: true
+          }
+        };
+
+        try {
+          const resp = await fetch(`${KYLAS_API_HOST}/search/lead?page=0&size=50`, {
+            method: "POST",
+            headers: {
+              "api-key": KYLAS_API_KEY,
+              "Content-Type": "application/json",
+              "Accept": "application/json"
+            },
+            body: JSON.stringify(payload)
+          });
+
+          if (resp.ok) {
+            const data = await resp.json();
+            const store = data?.metaData?.idNameStore?.pipelineStage || {};
+            Object.assign(stageStoreMap, store);
+
+            (data.content || []).forEach(leadItem => {
+              const matched = allLeadsData.find(l => String(l.lead_id) === String(leadItem.id));
+              if (matched) {
+                const stageName = stageStoreMap[leadItem.pipelineStage] || leadItem.pipelineStage;
+                if (stageName && matched.stage !== stageName) {
+                  matched.stage = stageName;
+                  anyUpdated = true;
+                }
+                const cfs = leadItem.customFieldValues || {};
+                if (cfs.cfMeetingDateAndTime) { matched.meet_time = cfs.cfMeetingDateAndTime; matched.ms = true; }
+                if (cfs.cfMeetingDoneDateAndTime) { matched.meet_done = cfs.cfMeetingDoneDateAndTime; matched.md = true; }
+                if (cfs.cfFileLoginDate) { matched.file_login = cfs.cfFileLoginDate; matched.fl = true; }
+                if (cfs.cfNotes) matched.notes = cfs.cfNotes.replace(/<[^>]+>/g, ' ').trim();
+              }
+            });
+          }
+        } catch (err) {
+          console.warn("Direct Kylas sync batch error:", err);
+        }
+      }
+
+      const nowStr = new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      document.getElementById('syncTimestamp').innerText = "Last Synced: " + nowStr + " (Kylas Live Real-Time)";
+
+      if (anyUpdated || forceManual) {
+        applyGlobalFilters();
+        if (forceManual) {
+          showToast("✅ Live Kylas CRM Stages Synced Real-Time!");
+        }
+      }
+      return anyUpdated;
+    }
+
     // Real-Time Live Sync & Polling Engine
     async function pollLiveData(forceManual = false) {
       const btnText = document.getElementById('syncBtnText');
@@ -1310,36 +1382,34 @@
       }
 
       try {
-        const url = forceManual ? '/api/sync?t=' + Date.now() : '/live_data.json?t=' + Date.now();
-        const res = await fetch(url);
-        if (res.ok) {
-          const data = await res.json();
-          if (data && data.leads) {
-            if (!lastPayloadIso || lastPayloadIso !== data.updated_at_iso || forceManual) {
-              lastPayloadIso = data.updated_at_iso;
-              allLeadsData = data.leads;
-              if (data.campaigns_by_seg) {
-                deepCampaignsData = data.campaigns_by_seg;
-              }
-              if (data.this_month) {
-                thisMonthData = data.this_month;
-              }
-              if (data.kpis) {
-                updateKpisUI(data.kpis);
-              }
-              if (data.timestamp) {
-                document.getElementById('syncTimestamp').innerText = "Last Synced: " + data.timestamp + " (Kylas API Live)";
-              }
-              renderStageBoard();
-              renderLeadsTable();
-              renderDeepSegments();
-              document.getElementById('tabLeadsCountBadge').innerText = allLeadsData.length;
-              
-              if (forceManual) {
-                showToast("✅ Live Data & Kylas CRM Stages Synced from Google Sheets!");
+        let backendSynced = false;
+        // If on local dev server, try backend sync first
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+          try {
+            const url = forceManual ? '/api/sync?t=' + Date.now() : './live_data.json?t=' + Date.now();
+            const res = await fetch(url);
+            if (res.ok) {
+              const data = await res.json();
+              if (data && data.leads) {
+                lastPayloadIso = data.updated_at_iso;
+                allLeadsData = data.leads;
+                if (data.campaigns_by_seg) deepCampaignsData = data.campaigns_by_seg;
+                if (data.this_month) thisMonthData = data.this_month;
+                if (data.kpis) updateKpisUI(data.kpis);
+                if (data.timestamp) {
+                  document.getElementById('syncTimestamp').innerText = "Last Synced: " + data.timestamp + " (Local Server Live)";
+                }
+                applyGlobalFilters();
+                if (forceManual) showToast("✅ Live Data & Kylas CRM Stages Synced!");
+                backendSynced = true;
               }
             }
-          }
+          } catch(e) {}
+        }
+
+        // On GitHub Pages or standalone view: query Kylas API directly!
+        if (!backendSynced) {
+          await syncWithKylasDirect(forceManual);
         }
       } catch (err) {
         console.warn("Auto-sync poll notice:", err);
@@ -1349,6 +1419,7 @@
           btnText.innerText = "Sync Live Data";
         }
       }
+    }
     }
 
     // Tab Switching
@@ -1484,6 +1555,21 @@
       if (document.getElementById('kpi-ms-nov')) document.getElementById('kpi-ms-nov').innerText = msNov;
       if (document.getElementById('kpi-md-nov')) document.getElementById('kpi-md-nov').innerText = mdNov;
       if (document.getElementById('kpi-fl-nov')) document.getElementById('kpi-fl-nov').innerText = flNov;
+
+      // Update Live Pipeline Stage counts dynamically
+      const stageFl = filtered.filter(l => l.stage === 'File Login on LoS').length;
+      const stageMd = filtered.filter(l => l.stage === 'Meeting Done' || l.stage === 'Interested for KYC' || l.stage === 'Pre-Approved Run (Thor)').length;
+      const stageMs = filtered.filter(l => l.stage === 'Meeting Scheduled' || l.stage === 'Interested to Meet').length;
+      const stageDisc = filtered.filter(l => l.stage === 'In Discussion (Lending)' || l.stage === 'Interested Followup' || l.stage === 'Future Lead').length;
+      const stageNl = filtered.filter(l => l.stage === 'New Lead Lending').length;
+      const stageDisq = filtered.filter(l => l.stage === 'Not Connected (New Lead Lending)' || l.stage === 'Not Interested' || l.stage === 'Disqualified').length;
+
+      if (document.getElementById('kpi-stage-fl')) document.getElementById('kpi-stage-fl').innerText = stageFl;
+      if (document.getElementById('kpi-stage-md')) document.getElementById('kpi-stage-md').innerText = stageMd;
+      if (document.getElementById('kpi-stage-ms')) document.getElementById('kpi-stage-ms').innerText = stageMs;
+      if (document.getElementById('kpi-stage-disc')) document.getElementById('kpi-stage-disc').innerText = stageDisc;
+      if (document.getElementById('kpi-new-leads')) document.getElementById('kpi-new-leads').innerText = stageNl;
+      if (document.getElementById('kpi-stage-disq')) document.getElementById('kpi-stage-disq').innerText = stageDisq;
     }
 
     // Render Leads by Stage Board
@@ -2035,9 +2121,12 @@
       renderLeadsTable();
       showCadence('sanc');
 
+      // Immediate live CRM sync on load
+      setTimeout(() => pollLiveData(false), 500);
+
       setInterval(() => {
         pollLiveData(false);
-      }, 10000);
+      }, 15000);
     });
   </script>
 </body>
