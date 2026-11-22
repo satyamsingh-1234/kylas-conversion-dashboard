@@ -931,6 +931,140 @@
 
   <!-- TAB 4: DEEP SEGMENT TRACKING -->
   <section id="tab-deep_segments" class="hidden space-y-6">
+    <!-- Segment Targeting Matrix (Synced from Google Sheet 1: 'Segment list') -->
+    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm mb-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 pb-3 border-b border-slate-100">
+        <div>
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span>📋 Campaign Audience Segments &amp; Target Matrix</span>
+          </h3>
+          <p class="text-xs text-slate-500 mt-0.5">Live mapping of all 10 audience segments from Google Sheet 1 ('Segment list' tab)</p>
+        </div>
+        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+          Sheet 1: 'Segment list' Synced
+        </span>
+      </div>
+
+      <div class="overflow-x-auto custom-scrollbar">
+        <table class="w-full text-xs text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50 text-slate-600 font-bold border-b border-slate-200 uppercase text-[10px] tracking-wider">
+              <th class="p-3">#</th>
+              <th class="p-3">Segment Name</th>
+              <th class="p-3">Source</th>
+              <th class="p-3">Turnover Bucket</th>
+              <th class="p-3">Territory / Geo</th>
+              <th class="p-3">Industry Filter</th>
+              <th class="p-3 text-right">Leads Mapped</th>
+              <th class="p-3 text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100">
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-bold text-slate-400">1</td>
+              <td class="p-3 font-bold text-slate-900">Lending customer network (Delhi)</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-100 text-purple-800">Internal DB</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">Delhi</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">5</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', 'Lending customer network (Delhi)')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-bold text-slate-400">2</td>
+              <td class="p-3 font-bold text-slate-900">Saas customer network</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-100 text-purple-800">Internal DB</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">All India</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">5</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', 'Saas customer')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition bg-blue-50/20">
+              <td class="p-3 font-bold text-slate-400">3</td>
+              <td class="p-3 font-bold text-slate-900">LSQ, 25Cr+ (Mumbai) - Exc(Dis, Invalid)</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-800">Kylas CRM</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">Mumbai</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">41</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', 'Mumbai')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-bold text-slate-400">4</td>
+              <td class="p-3 font-bold text-slate-900">Lending customer network (Bangalore)</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-100 text-purple-800">Internal DB</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">Bangalore</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">16</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', 'Bangalore')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition bg-amber-50/20">
+              <td class="p-3 font-bold text-slate-400">5</td>
+              <td class="p-3 font-bold text-slate-900">BL_data_10Cr_24Cr_New_NC_DP_Workablecity</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-800">Kylas CRM</span></td>
+              <td class="p-3 font-semibold text-amber-700">₹10 Cr – 24 Cr (BL)</td>
+              <td class="p-3 text-slate-600 font-medium">Workable Cities</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-amber-700">28</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('product', 'BL')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-amber-50 text-amber-800 hover:bg-amber-100 border border-amber-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition bg-blue-50/20">
+              <td class="p-3 font-bold text-slate-400">6</td>
+              <td class="p-3 font-bold text-slate-900">LSQ_All workablecity_25cr_with_final</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-800">Kylas CRM</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">Workable Cities</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">49</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', 'workablecity')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-bold text-slate-400">7</td>
+              <td class="p-3 font-bold text-slate-900">LSQ_DelhiNCR_25Cr_NC_8thOct</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-800">Kylas CRM</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">Delhi NCR</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">5</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', '8thOct')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-bold text-slate-400">8</td>
+              <td class="p-3 font-bold text-slate-900">DB_LoanReference_14thOct26</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-100 text-purple-800">Internal DB</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">All India</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">21</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', '14thOct')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-bold text-slate-400">9</td>
+              <td class="p-3 font-bold text-slate-900">LSQ_DelhiNCR_25Cr_New_21st Oct</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-800">Kylas CRM</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">Delhi NCR</td>
+              <td class="p-3 text-slate-400 font-medium">—</td>
+              <td class="p-3 text-right font-black text-blue-700">1</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', '21st Oct')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition bg-emerald-50/20">
+              <td class="p-3 font-bold text-slate-400">10</td>
+              <td class="p-3 font-bold text-slate-900">LSQ_25Cr_Industry</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-800">Kylas CRM</span></td>
+              <td class="p-3 font-semibold text-slate-700">More Than ₹25 Cr</td>
+              <td class="p-3 text-slate-600 font-medium">All India</td>
+              <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-emerald-100 text-emerald-800">Yes (Industry Filtered)</span></td>
+              <td class="p-3 text-right font-black text-blue-700">26</td>
+              <td class="p-3 text-center"><button onclick="setQuickFilter('search', 'Industry')" class="px-2 py-1 rounded-lg text-[10px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200">View Leads</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
     <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
       <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
         <div>
