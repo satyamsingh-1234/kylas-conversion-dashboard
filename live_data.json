@@ -1,6 +1,6 @@
 {
-  "timestamp": "23-Nov-2026 10:43:58 AM",
-  "updated_at_iso": "2026-11-23T10:43:58.692748",
+  "timestamp": "21-Nov-2026 06:52:23 PM",
+  "updated_at_iso": "2026-11-21T18:52:23.577324",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Pipeline 36643",
   "kpis": {
     "total_sent": "435,664",
@@ -17,13 +17,13 @@
     "channel_stats": {
       "current_month": {
         "EMAIL": {
-          "leads": 140,
+          "leads": 138,
           "ms": 40,
           "md": 24,
           "fl": 6
         },
         "SMS": {
-          "leads": 14,
+          "leads": 16,
           "ms": 7,
           "md": 5,
           "fl": 1
@@ -37,13 +37,13 @@
       },
       "overall": {
         "EMAIL": {
-          "leads": 150,
+          "leads": 148,
           "ms": 46,
           "md": 29,
           "fl": 7
         },
         "SMS": {
-          "leads": 47,
+          "leads": 49,
           "ms": 18,
           "md": 12,
           "fl": 3
@@ -66,13 +66,13 @@
       "Not Interested": 46,
       "Meeting Scheduled": 31,
       "Not Connected (New Lead Lending)": 50,
-      "Disqualified": 22,
+      "Disqualified": 21,
       "Meeting Done": 23,
-      "Interested to Meet": 1,
+      "Interested to Meet": 2,
       "File Login on LoS": 2,
       "Interested for KYC": 2,
-      "Interested Followup": 1,
       "New Lead Lending": 1,
+      "Interested Followup": 1,
       "Future Lead": 1
     },
     "lsq_stages": {
@@ -80,20 +80,20 @@
       "Not Interested": 46,
       "Meeting Scheduled": 31,
       "Not Connected (New Lead Lending)": 50,
-      "Disqualified": 22,
+      "Disqualified": 21,
       "Meeting Done": 23,
-      "Interested to Meet": 1,
+      "Interested to Meet": 2,
       "File Login on LoS": 2,
       "Interested for KYC": 2,
-      "Interested Followup": 1,
       "New Lead Lending": 1,
+      "Interested Followup": 1,
       "Future Lead": 1
     },
     "pid_vs_bl": {
-      "total_pid_leads": 170,
-      "total_bl_leads": 27,
-      "new_lead_pid": 1,
-      "new_lead_bl": 0,
+      "total_pid_leads": 169,
+      "total_bl_leads": 28,
+      "new_lead_pid": 0,
+      "new_lead_bl": 1,
       "new_lead_total": 1
     }
   },
@@ -131,13 +131,13 @@
     "channel_stats": {
       "current_month": {
         "EMAIL": {
-          "leads": 140,
+          "leads": 138,
           "ms": 40,
           "md": 24,
           "fl": 6
         },
         "SMS": {
-          "leads": 14,
+          "leads": 16,
           "ms": 7,
           "md": 5,
           "fl": 1
@@ -151,13 +151,13 @@
       },
       "overall": {
         "EMAIL": {
-          "leads": 150,
+          "leads": 148,
           "ms": 46,
           "md": 29,
           "fl": 7
         },
         "SMS": {
-          "leads": 47,
+          "leads": 49,
           "ms": 18,
           "md": 12,
           "fl": 3
@@ -176,12 +176,12 @@
         "focus": "Bangalore Network & SaaS Segment",
         "sent": 638579,
         "deliv": 99919,
-        "leads": 87,
+        "leads": 86,
         "ms": 21,
         "md": 13,
         "fl": 3,
         "cost": 18542,
-        "cpl": 213,
+        "cpl": 216,
         "cost_fl": 6181,
         "deliv_rate": 15.6
       },
@@ -190,12 +190,12 @@
         "focus": "10Cr–24Cr Workable Cities Scale-up (Top FL Cohort)",
         "sent": 146447,
         "deliv": 128706,
-        "leads": 65,
+        "leads": 63,
         "ms": 23,
         "md": 14,
         "fl": 5,
         "cost": 14770,
-        "cpl": 227,
+        "cpl": 234,
         "cost_fl": 2954,
         "deliv_rate": 87.9
       },
@@ -204,12 +204,12 @@
         "focus": "PID 25Cr Industry & Delhi NCR Expansion",
         "sent": 488188,
         "deliv": 153895,
-        "leads": 53,
+        "leads": 60,
         "ms": 12,
         "md": 7,
         "fl": 1,
         "cost": 24319,
-        "cpl": 459,
+        "cpl": 405,
         "cost_fl": 24319,
         "deliv_rate": 31.5
       },
@@ -238,7 +238,7 @@
         "sent": 28500,
         "delivered": 28500,
         "cost": 2850,
-        "leads": 35,
+        "leads": 33,
         "ms": 12,
         "md": 7,
         "fl": 2,
@@ -270,7 +270,7 @@
         "sent": 43670,
         "delivered": 21012,
         "cost": 4728,
-        "leads": 17,
+        "leads": 16,
         "ms": 6,
         "md": 5,
         "fl": 1,
@@ -639,7 +639,7 @@
         "sent": 27000,
         "delivered": 0,
         "cost": 0,
-        "leads": 8,
+        "leads": 4,
         "ms": 1,
         "md": 1,
         "fl": 0,
@@ -686,7 +686,7 @@
         "sent": 43670,
         "delivered": 21012,
         "cost": 4728,
-        "leads": 17,
+        "leads": 16,
         "ms": 6,
         "md": 5,
         "fl": 1,
@@ -857,7 +857,7 @@
         "sent": 9161,
         "delivered": 4344,
         "cost": 1418,
-        "leads": 2,
+        "leads": 8,
         "ms": 0,
         "md": 0,
         "fl": 0,
@@ -904,7 +904,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring voice mail voice mail not connect voice mail voice mail voice mail&nbsp;\nringing\nringing\ncx said call back after some time\nvoice mail no busy voice mail \ncall back monday"
+      "notes": "ring voice mail voice mail not connect voice mail voice mail voice mail&nbsp;\nringing\nringing\ncx said call back after some time\nvoice mail no busy voice mail \ncall back monday",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56487316",
@@ -927,7 +928,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "The agent called to confirm if they were speaking with S &amp; V Manufactures. The user \nacknowledged the call and responded affirmatively. The main purpose was to verify the contact with the intended party, and this was successfully established. No further discussion or decisions took place during the call. busy on another call call received and disconnected by cx during introduction busy busy on another call busy no need\nCALL NOT CONNECTED"
+      "notes": "The agent called to confirm if they were speaking with S &amp; V Manufactures. The user \nacknowledged the call and responded affirmatively. The main purpose was to verify the contact with the intended party, and this was successfully established. No further discussion or decisions took place during the call. busy on another call call received and disconnected by cx during introduction busy busy on another call busy no need\nCALL NOT CONNECTED",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56489868",
@@ -950,7 +952,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp; busy ringing call cut"
+      "notes": "ringing&nbsp; busy ringing call cut",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56631723",
@@ -973,7 +976,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "BUSINEE IRON TRADING -TURN OVER 80 CR+  TATA -MEMCO INDUSTRIES - ROI PITCH 13% to 14% OWNER - YASH BANSAL CEO RATED COMPANY SE IRON STEEL PURCHES KR RAHA HAIN - CALL RINGING CUSTMER TOLD THIS IS NO NEED ANY TYPR OF LOAN IF REQUIRED WE WILL CONNECT U"
+      "notes": "BUSINEE IRON TRADING -TURN OVER 80 CR+  TATA -MEMCO INDUSTRIES - ROI PITCH 13% to 14% OWNER - YASH BANSAL CEO RATED COMPANY SE IRON STEEL PURCHES KR RAHA HAIN - CALL RINGING",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56634237",
@@ -996,7 +1000,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Support Generated cx disconnect the call - cx disconnect the call cx is busy another call - call ringing -&nbsp;   multiple times trying but cx not respond single call\nringing\nName :- Krishna rao \nPhone Number:- 9909669513\nBTO -82+cr plus \nNature of Business -logistics\nProduct Pitched -  Pid\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12:00 pm \nI spoke with the customer regarding pay later /DOD/ . The customer is interested in the product, and I pitched an ROI of 15%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 AM.\nThis meeting was scheduled after discussing it with Lokesh Sir."
+      "notes": "Support Generated cx disconnect the call - cx disconnect the call cx is busy another call - call ringing -&nbsp;   multiple times trying but cx not respond single call\nringing\nName :- Krishna rao \nPhone Number:- 9909669513\nBTO -82+cr plus \nNature of Business -logistics\nProduct Pitched -  Pid\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12:00 pm \nI spoke with the customer regarding pay later /DOD/ . The customer is interested in the product, and I pitched an ROI of 15%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 AM.\nThis meeting was scheduled after discussing it with Lokesh Sir.",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56636885",
@@ -1019,7 +1024,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring - cx is busy another call - call ringing - customer number is busy&nbsp;  customer number is busy&nbsp;    \nCX IS BUSY ON ANNOTHER CALL\nringing\nringing\nNo busy"
+      "notes": "ring - cx is busy another call - call ringing - customer number is busy&nbsp;  customer number is busy&nbsp;    \nCX IS BUSY ON ANNOTHER CALL\nringing\nringing\nNo busy",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56638738",
@@ -1042,7 +1048,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx told no requirement and not ready to listen - cx is busy - cx disconnect the call    call ringing , ringing"
+      "notes": "cx told no requirement and not ready to listen - cx is busy - cx disconnect the call    call ringing , ringing",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56639117",
@@ -1065,7 +1072,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back after 15 min cibil 600 + cibil 685 haii&nbsp; disqualify&nbsp;"
+      "notes": "call back after 15 min cibil 600 + cibil 685 haii&nbsp; disqualify&nbsp;",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56714097",
@@ -1088,7 +1096,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CFO - AFTER 2.30 - TURN OVER -145 CR - ELECTRNON - NAME - VANKATESH V -&nbsp; CUSTOMER IS READY TO DISCUSS ABOUT PRODUCT AFTER 2.30 PM ON VIRTUAL CALL -&nbsp;"
+      "notes": "CFO - AFTER 2.30 - TURN OVER -145 CR - ELECTRNON - NAME - VANKATESH V -&nbsp; CUSTOMER IS READY TO DISCUSS ABOUT PRODUCT AFTER 2.30 PM ON VIRTUAL CALL -&nbsp;",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56715761",
@@ -1111,7 +1120,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx interested but ROI concern said i will update you turnover - 129 cr  cx need less roi&nbsp;\nnot interested"
+      "notes": "cx interested but ROI concern said i will update you turnover - 129 cr  cx need less roi&nbsp;\nnot interested",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56716090",
@@ -1134,7 +1144,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Lokesh - Discuss with Director he said already applied in ABCL for 3 Cr at 9% Roi and 0.5% PF ) . Still i asked him to share balance sheet - Location Jamnagar Gujarat"
+      "notes": "Lokesh - Discuss with Director he said already applied in ABCL for 3 Cr at 9% Roi and 0.5% PF ) . Still i asked him to share balance sheet - Location Jamnagar Gujarat",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56717897",
@@ -1157,7 +1168,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp; not interested&nbsp;"
+      "notes": "ringing&nbsp; not interested&nbsp;",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56718140",
@@ -1180,7 +1192,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp; cx not interested to roi The\nRINGING customer is looking for an ROI of 8.25%. \nRINGING"
+      "notes": "ringing&nbsp; cx not interested to roi The\nRINGING customer is looking for an ROI of 8.25%. \nRINGING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56755932",
@@ -1203,7 +1216,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Busy ringing&nbsp; not intersted&nbsp;"
+      "notes": "Busy ringing&nbsp; not intersted&nbsp;",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876497",
@@ -1226,7 +1240,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876498",
@@ -1249,7 +1264,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\nringing\ncustomer ROI wants 8 prcnt"
+      "notes": "ringing\nringing\ncustomer ROI wants 8 prcnt",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876499",
@@ -1272,7 +1288,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876501",
@@ -1295,7 +1312,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "roi issue"
+      "notes": "roi issue",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876502",
@@ -1318,7 +1336,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not respond call ringing -cx disconnected the call call ringing ,  Huf Firm"
+      "notes": "not respond call ringing -cx disconnected the call call ringing ,  Huf Firm",
+      "turnover_bucket": "Under ₹10 Cr"
     },
     {
       "lead_id": "56876503",
@@ -1341,7 +1360,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876504",
@@ -1364,7 +1384,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56619739",
@@ -1387,7 +1408,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "ringing  ring  RING&nbsp;  ring&nbsp;  as discuss with CA FOR PID CX INTERSETED AND CX BUSINESS TEXTILE MANUFACTURING 275CR COMPANY RATED BBB- CX WANT 9.5% TO 10% ROI ... CX VIRTUAL MEET TODAY 4PM.&nbsp;"
+      "notes": "ringing  ring  RING&nbsp;  ring&nbsp;  as discuss with CA FOR PID CX INTERSETED AND CX BUSINESS TEXTILE MANUFACTURING 275CR COMPANY RATED BBB- CX WANT 9.5% TO 10% ROI ... CX VIRTUAL MEET TODAY 4PM.&nbsp;",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56715690",
@@ -1410,7 +1432,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx said my turnover is 138 cr&nbsp; if you give me on 10, 11% than we go for meeting other wise&nbsp; no matter  cx need roi in 10 %&nbsp; , call back later , Details Share On What App Customer Check And Revert , Cash Positive , Ringing , Ringing"
+      "notes": "cx said my turnover is 138 cr&nbsp; if you give me on 10, 11% than we go for meeting other wise&nbsp; no matter  cx need roi in 10 %&nbsp; , call back later , Details Share On What App Customer Check And Revert , Cash Positive , Ringing , Ringing",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876506",
@@ -1433,7 +1456,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ringing\nRinging , Ringing , Call Back After 4 Pm , Ringing"
+      "notes": "Ringing\nRinging , Ringing , Call Back After 4 Pm , Ringing",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56388106",
@@ -1456,7 +1480,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring client said turn over 40 cr interior design contractor suggest mas finance said he will confirm no busy&nbsp; no busy&nbsp; No busy&nbsp; No busy&nbsp; Ring\nbusy\nbusy\nbusy on another call\nbusy\nbusy"
+      "notes": "ring client said turn over 40 cr interior design contractor suggest mas finance said he will confirm no busy&nbsp; no busy&nbsp; No busy&nbsp; No busy&nbsp; Ring\nbusy\nbusy\nbusy on another call\nbusy\nbusy",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56680024",
@@ -1479,7 +1504,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring"
+      "notes": "ring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56762693",
@@ -1502,7 +1528,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing"
+      "notes": "ringing",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "57203065",
@@ -1525,7 +1552,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "CX WANT CALL BACK TOMORROW IN 2ND HALF\ncall disconnected due to network issue and will connect in 2nd half\nDiscussed with owner\nlast 3 year\n31 March 2025- 6 cr\n31-March-2026-43 cr\ncurrent year till date done- 40 cr and close for 60 cr\nNob- wholesale of steel angles\ncx is interested to do a virtual meeting for today and will scheduled once get a time confirmation on whatsapp\ndirect call- customer given time for tomorrow at 12pm as \" mpinfrasolutions@gmail.com"
+      "notes": "CX WANT CALL BACK TOMORROW IN 2ND HALF\ncall disconnected due to network issue and will connect in 2nd half\nDiscussed with owner\nlast 3 year\n31 March 2025- 6 cr\n31-March-2026-43 cr\ncurrent year till date done- 40 cr and close for 60 cr\nNob- wholesale of steel angles\ncx is interested to do a virtual meeting for today and will scheduled once get a time confirmation on whatsapp\ndirect call- customer given time for tomorrow at 12pm as \" mpinfrasolutions@gmail.com",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57206318",
@@ -1548,7 +1576,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57208506",
@@ -1571,7 +1600,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call forwarded\ncall forwarded\nbusy\nringing\ndirect call-call forwarded\ncall forwarded"
+      "notes": "call forwarded\ncall forwarded\nbusy\nringing\ndirect call-call forwarded\ncall forwarded",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57235009",
@@ -1594,30 +1624,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring"
-    },
-    {
-      "lead_id": "57358053",
-      "lsq_id": "57358053",
-      "name": "CHETAN BUDDHDEV .",
-      "phone": "9820640642",
-      "company": "Precise Chemipharma Pvt Ltd",
-      "turnover": "Above ₹25 Cr",
-      "channel": "EMAIL",
-      "campaign": "LSQ_25Cr_Industry_17thNov26",
-      "is_pid": true,
-      "product": "PID (>25 Cr)",
-      "stage": "Interested to Meet",
-      "meet_time": "",
-      "meet_done": "",
-      "file_login": "",
-      "ms": false,
-      "md": false,
-      "fl": false,
-      "is_ms_nov": false,
-      "is_md_nov": false,
-      "is_fl_nov": false,
-      "notes": "Ring Discuss with personal Mob account manger Chetan he is Manufeture of Pharmasutical business turn over 46-44 cr DIP Due to war situation or tariff roi pf inform as per policy he will confirm monday meeting time"
+      "notes": "ring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56632599",
@@ -1640,20 +1648,21 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "case was already login done but got rejected by credit so not doable&nbsp;"
+      "notes": "case was already login done but got rejected by credit so not doable&nbsp;",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
-      "lead_id": "57278848",
-      "lsq_id": "57278848",
-      "name": "Satyam singh .",
-      "phone": "9508998036",
-      "company": "web developer",
-      "turnover": "Above ₹25 Cr",
-      "channel": "EMAIL",
+      "lead_id": "56723759",
+      "lsq_id": "742253",
+      "name": "Anemo Projects Pvt. Ltd. None",
+      "phone": "8130067335",
+      "company": "Anemo Projects Pvt. Ltd.",
+      "turnover": "₹69.0 Cr",
+      "channel": "SMS",
       "campaign": "LSQ_25Cr_Industry_19thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "Disqualified",
+      "stage": "Interested to Meet",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -1663,7 +1672,32 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "testing lead"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
+    },
+    {
+      "lead_id": "57167251",
+      "lsq_id": "57167251",
+      "name": "Tushar Thakkar .",
+      "phone": "9725017270",
+      "company": "Shree Uma Infrastructure",
+      "turnover": "Above ₹25 Cr",
+      "channel": "SMS",
+      "campaign": "LSQ_25Cr_Industry_19thNov26",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "Not Interested",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": "ring Ring Ring\nRING Discuss with personal mob Owner Tushar he is trader of kapas turn over 34 cr suggest DOD roi pf inform as per policy he said have one more company his friend same business turn over 78 cr suggest PID ready to meet Monday second half gst or location will share on what's up multiple dpd is showing we can not fund",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56413643",
@@ -1686,7 +1720,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx did not pick the call call back monday Ring"
+      "notes": "cx did not pick the call call back monday Ring",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56414083",
@@ -1709,7 +1744,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Not reachable\nVOICEMAIL\nRINGNING\nvoicemail\nvoicemail\nVOICEMAIL\ncx said call back after 3:30 pm"
+      "notes": "Not reachable\nVOICEMAIL\nRINGNING\nvoicemail\nvoicemail\nVOICEMAIL\ncx said call back after 3:30 pm",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56420099",
@@ -1732,7 +1768,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": true,
-      "notes": "Name :-NIMESH PARIKH\nPhone Number:- 7610368995//9821164032\nBTO -11+cr plus \nNature of Business -manufacturing\nProduct Pitched - DOD\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for DOD Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.\nCX IS INTERESTED TO VIRTUAL METTING Yes-btsyn2@gmail.com"
+      "notes": "Name :-NIMESH PARIKH\nPhone Number:- 7610368995//9821164032\nBTO -11+cr plus \nNature of Business -manufacturing\nProduct Pitched - DOD\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for DOD Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.\nCX IS INTERESTED TO VIRTUAL METTING Yes-btsyn2@gmail.com",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56466847",
@@ -1755,7 +1792,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nAs discuss with director cx business armstrong wire installation bto-22cr cx projection 50cr ... cx interested for meeting tomorrow 11:30am to 5:30pm available cx address as per gst location."
+      "notes": "ring\nAs discuss with director cx business armstrong wire installation bto-22cr cx projection 50cr ... cx interested for meeting tomorrow 11:30am to 5:30pm available cx address as per gst location.",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56466908",
@@ -1778,7 +1816,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx is cloesd tournover 24-25 25 cr but now cx is cloesd tournover is 5cr\nRINGING"
+      "notes": "cx is cloesd tournover 24-25 25 cr but now cx is cloesd tournover is 5cr\nRINGING",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56467881",
@@ -1801,7 +1840,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING Ring Ring"
+      "notes": "RINGING Ring Ring",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56479292",
@@ -1824,7 +1864,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back\nRINGNG\ncivil is too low"
+      "notes": "call back\nRINGNG\ncivil is too low",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56538120",
@@ -1847,7 +1888,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx did not pick up the call Not reachable\ncustomer not interested due to high ROI Required ROI 12 %"
+      "notes": "cx did not pick up the call Not reachable\ncustomer not interested due to high ROI Required ROI 12 %",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56551935",
@@ -1870,7 +1912,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx is did not pick the call Ring\nRINGING\ncustomer said on a whts app He will confirm\nName :-ALI ASGAR\nPhone Number:- 9538171110\nBTO -18+cr plus \nNature of Business - TREDING \nProduct Pitched - DOD\nMeeting Time-11:00 AM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  11:00 Am \nI spoke with the customer regarding DOD/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir."
+      "notes": "cx is did not pick the call Ring\nRINGING\ncustomer said on a whts app He will confirm\nName :-ALI ASGAR\nPhone Number:- 9538171110\nBTO -18+cr plus \nNature of Business - TREDING \nProduct Pitched - DOD\nMeeting Time-11:00 AM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  11:00 Am \nI spoke with the customer regarding DOD/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "57026675",
@@ -1893,7 +1936,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "No busy\nDISQUALIFIED LOW VINTAGE\nswitch off"
+      "notes": "No busy\nDISQUALIFIED LOW VINTAGE\nswitch off",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57035736",
@@ -1916,7 +1960,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "client said machine looms Manufeture of Machine looms turn over 13 cr interested in DOD roi PF inform as per policy he will share the documents Ring Ring"
+      "notes": "client said machine looms Manufeture of Machine looms turn over 13 cr interested in DOD roi PF inform as per policy he will share the documents Ring Ring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57052187",
@@ -1939,7 +1984,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring cx need SID BTO- 11CR ONLY CX BUYER IS RATED BUT BTO IS LOW AS DISCUSS COMPANY  FINANCE HEAD MOHIT KUMAR aa details discuss personal phone recording shared varun sir whatsapp"
+      "notes": "ring cx need SID BTO- 11CR ONLY CX BUYER IS RATED BUT BTO IS LOW AS DISCUSS COMPANY  FINANCE HEAD MOHIT KUMAR aa details discuss personal phone recording shared varun sir whatsapp",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56412651",
@@ -1962,7 +2008,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "client said roi is high for term loan he is looking 8% not interested\nRINGING"
+      "notes": "client said roi is high for term loan he is looking 8% not interested\nRINGING",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56414440",
@@ -1985,7 +2032,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx is travelling now will connect tomorrow after 10am\nringing\nringing\ncx told will do a call back aftersometime\ncall forwarded"
+      "notes": "cx is travelling now will connect tomorrow after 10am\nringing\nringing\ncx told will do a call back aftersometime\ncall forwarded",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56466050",
@@ -2008,7 +2056,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\nnot interested"
+      "notes": "ringing\nnot interested",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56471534",
@@ -2031,7 +2080,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING\nNOT INTERESTED"
+      "notes": "RINGING\nNOT INTERESTED",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56534206",
@@ -2054,7 +2104,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "no ringing&nbsp; voice mail\nITS A IVR NUMBER\nBUSY ON ANOTHER CALL\nVOICEMAILvoicemail\nName :-ALI ASGAR\nPhone Number:- 7669886691\nBTO -16+cr plus \nNature of Business - TREDING \nProduct Pitched - DOD\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for DOD Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding DOD/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir."
+      "notes": "no ringing&nbsp; voice mail\nITS A IVR NUMBER\nBUSY ON ANOTHER CALL\nVOICEMAILvoicemail\nName :-ALI ASGAR\nPhone Number:- 7669886691\nBTO -16+cr plus \nNature of Business - TREDING \nProduct Pitched - DOD\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for DOD Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding DOD/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56535224",
@@ -2077,7 +2128,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "customer said call me back\ncall back\nRINGING\nName :-PURUSHOTHAM CHETAN\nPhone Number:- 9886940411\nBTO -16+cr plus \nNature of Business - Service Provider and Others\nProduct Pitched - DOD\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir."
+      "notes": "customer said call me back\ncall back\nRINGING\nName :-PURUSHOTHAM CHETAN\nPhone Number:- 9886940411\nBTO -16+cr plus \nNature of Business - Service Provider and Others\nProduct Pitched - DOD\nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 16to18%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56549335",
@@ -2100,7 +2152,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING\nRINGING\nRINGING\nRINGING\nringing"
+      "notes": "RINGING\nRINGING\nRINGING\nRINGING\nringing",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56552942",
@@ -2123,7 +2176,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "gold profile we cannot fund\nnot intetested"
+      "notes": "gold profile we cannot fund\nnot intetested",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56599351",
@@ -2146,7 +2200,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Requirement -1.5 cr\n31 march 2025-5.5 cr \nNOT INTERESTED  WANTS PID BUT TURNOVER 8 CR\nCALL DISCONNECT BY CX\nCALL DISCONNECT \ncall disconnect by cx\n31 march 2026- 7.5 cr \ncurrent year projection -8 cr \nexisting facility-cgtmse- 1.20 cr- icici \nNotes: cx having commercial and residential property\ncommercial value-2cr\nresidential-70 lakh\npitched for DOD\nROI-16-18%\nCX IS Roi sensitive and will share documents list for internal assessment"
+      "notes": "Requirement -1.5 cr\n31 march 2025-5.5 cr \nNOT INTERESTED  WANTS PID BUT TURNOVER 8 CR\nCALL DISCONNECT BY CX\nCALL DISCONNECT \ncall disconnect by cx\n31 march 2026- 7.5 cr \ncurrent year projection -8 cr \nexisting facility-cgtmse- 1.20 cr- icici \nNotes: cx having commercial and residential property\ncommercial value-2cr\nresidential-70 lakh\npitched for DOD\nROI-16-18%\nCX IS Roi sensitive and will share documents list for internal assessment",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56605324",
@@ -2169,7 +2224,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CALL Disconnect\nCALL DISCONNECT\nCALL DISCONNECT BY CX\nBUSY\nring\nvoicemail"
+      "notes": "CALL Disconnect\nCALL DISCONNECT\nCALL DISCONNECT BY CX\nBUSY\nring\nvoicemail",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56616872",
@@ -2192,7 +2248,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy Ring\ncall back\nRINGING"
+      "notes": "busy Ring\ncall back\nRINGING",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56623464",
@@ -2215,7 +2272,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\nNOT INTERESTED"
+      "notes": "ringing\nNOT INTERESTED",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "57168905",
@@ -2238,7 +2296,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "client said textile business turn over 4 cr interested in DOD he wants to face to face meeting tomorrow  \n11:30 location will share on what's up meeting done with Harsh"
+      "notes": "client said textile business turn over 4 cr interested in DOD he wants to face to face meeting tomorrow  \n11:30 location will share on what's up meeting done with Harsh",
+      "turnover_bucket": "Under ₹10 Cr"
     },
     {
       "lead_id": "57169055",
@@ -2261,7 +2320,32 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "No need to loan by mistake click\nNOT INTERESTED"
+      "notes": "No need to loan by mistake click\nNOT INTERESTED",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
+    },
+    {
+      "lead_id": "56725671",
+      "lsq_id": "739724",
+      "name": "Ravikant Gupta .",
+      "phone": "8669047011",
+      "company": "ONIX ENCLAVES PRIVATE LIMITED",
+      "turnover": "₹27.9 Cr",
+      "channel": "EMAIL",
+      "campaign": "LSQ_BL_10Cr_24Cr_Workable_20thNov26",
+      "is_pid": false,
+      "product": "Business Loan (10-24 Cr)",
+      "stage": "New Lead Lending",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57331332",
@@ -2284,7 +2368,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx is driving and will do a call back tomorrow after 11am"
+      "notes": "cx is driving and will do a call back tomorrow after 11am",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56395472",
@@ -2307,7 +2392,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx is driving and want call back after 3 pm \nbusy\nbusy\nnot reachable\nnot reachable\nbusy\nbusy\nringing\nName :- Manish Phone Number:- 8320339601\nBTO - 50+cr plus \nNature of Business -wholesaler \nProduct Pitched -  PID //dod\nMeeting Time-12PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12 pm \nI spoke with the customer regarding PID and quoted an ROI of 13%�15%. The customer�s business turnover is ?50 crore, and he is interested in a meeting tomorrow. He has asked me to call him after 12:00 PM to confirm his availability before visiting."
+      "notes": "cx is driving and want call back after 3 pm \nbusy\nbusy\nnot reachable\nnot reachable\nbusy\nbusy\nringing\nName :- Manish Phone Number:- 8320339601\nBTO - 50+cr plus \nNature of Business -wholesaler \nProduct Pitched -  PID //dod\nMeeting Time-12PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12 pm \nI spoke with the customer regarding PID and quoted an ROI of 13%�15%. The customer�s business turnover is ?50 crore, and he is interested in a meeting tomorrow. He has asked me to call him after 12:00 PM to confirm his availability before visiting.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56639460",
@@ -2330,7 +2416,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "TURN OVER 58CR BUSS MOHD DANISH -RICE MEAL - CUSTOMER INTERETED TO MEET - AFTERNOON 2-3 PM - AS PER GST ADDRESS -"
+      "notes": "TURN OVER 58CR BUSS MOHD DANISH -RICE MEAL - CUSTOMER INTERETED TO MEET - AFTERNOON 2-3 PM - AS PER GST ADDRESS -",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56643539",
@@ -2353,7 +2440,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Discussed with Mr. Suraj Chaudhary Company Finance Head &nbsp;regarding the product pitch Overdraft And Paylater . The ROI pitch is in the range of 16 % to 18 % Annually. The company is engaged in the electrical appliances &nbsp;and has an annual turnover of 30CR+ . &nbsp;Meeting Schedule For Monday 12 October After 12 : 00 &nbsp;Pm. &nbsp;  Meeting Address:- Virtual Meeting  Note:- Meeting schedule after discussed with Lokesh sir"
+      "notes": "Discussed with Mr. Suraj Chaudhary Company Finance Head &nbsp;regarding the product pitch Overdraft And Paylater . The ROI pitch is in the range of 16 % to 18 % Annually. The company is engaged in the electrical appliances &nbsp;and has an annual turnover of 30CR+ . &nbsp;Meeting Schedule For Monday 12 October After 12 : 00 &nbsp;Pm. &nbsp;  Meeting Address:- Virtual Meeting  Note:- Meeting schedule after discussed with Lokesh sir",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56675343",
@@ -2376,7 +2464,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring Discussed with Anjali Ji, who is the accountant of the company. She is interested in PID, SID, and DOD facilities. PID &amp; SID pitched at 15% ROI, and DOD pitched at 16�17% ROI. She confirmed vendors BTS, Cocoon, and SK Exports, from whom they purchase material. The company is engaged in manufacturing and sells to international customers. Last year�s turnover was 27.75 Cr, and this year�s projected turnover is 50 Cr, with 22 Cr achieved so far.  I have continuously chase with customer but she is not responding the call, Same as update lokesh and Nurain to make a group and add to me for followup&nbsp;"
+      "notes": "ring Discussed with Anjali Ji, who is the accountant of the company. She is interested in PID, SID, and DOD facilities. PID &amp; SID pitched at 15% ROI, and DOD pitched at 16�17% ROI. She confirmed vendors BTS, Cocoon, and SK Exports, from whom they purchase material. The company is engaged in manufacturing and sells to international customers. Last year�s turnover was 27.75 Cr, and this year�s projected turnover is 50 Cr, with 22 Cr achieved so far.  I have continuously chase with customer but she is not responding the call, Same as update lokesh and Nurain to make a group and add to me for followup&nbsp;",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56964815",
@@ -2399,7 +2488,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56715136",
@@ -2422,7 +2512,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "He was looking for PID ... due to petrol pump business we cant provide him PID .....&nbsp;  ROI concern for DLOD , Term Loan&nbsp; ring&nbsp;   , ringing , Busy , Ringing"
+      "notes": "He was looking for PID ... due to petrol pump business we cant provide him PID .....&nbsp;  ROI concern for DLOD , Term Loan&nbsp; ring&nbsp;   , ringing , Busy , Ringing",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56715928",
@@ -2445,7 +2536,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring call back after 20m interested for kyc \nringing"
+      "notes": "ring call back after 20m interested for kyc \nringing",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56409393",
@@ -2468,7 +2560,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "RING\nAs  discuss with owner for pid cx business JCB parts manufacturing and lasy yaer gst bto-70cr ... recent oct bto-60cr and projection 100cr + cx interested for meeti ng tomorrow 12 pm as per gst location."
+      "notes": "RING\nAs  discuss with owner for pid cx business JCB parts manufacturing and lasy yaer gst bto-70cr ... recent oct bto-60cr and projection 100cr + cx interested for meeti ng tomorrow 12 pm as per gst location.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56502798",
@@ -2491,7 +2584,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "no busy&nbsp;  ringing  other call busy&nbsp; \n\nName :-ARIF \nPhone Number:- 9205593020\nBTO -46+cr plus \nNature of Business -Treding \nProduct Pitched - pid \nMeeting Time-11:00 AM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  11:00 Am \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 11:00 AM.\nThis meeting was scheduled after discussing it with Lokesh Sir."
+      "notes": "no busy&nbsp;  ringing  other call busy&nbsp; \n\nName :-ARIF \nPhone Number:- 9205593020\nBTO -46+cr plus \nNature of Business -Treding \nProduct Pitched - pid \nMeeting Time-11:00 AM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  11:00 Am \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 11:00 AM.\nThis meeting was scheduled after discussing it with Lokesh Sir.",
+      "turnover_bucket": "Under ₹10 Cr"
     },
     {
       "lead_id": "56627112",
@@ -2514,7 +2608,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing ringing , Ringing\nringing\nbusy\nDirect call\nDiscussed with owner\n2 location - coimbatore,banglore\nlast year turnover-40 cr\ncurrent year projection-45-50cr\nNOB- manufacturing of trading Metallized Polypropylene Film\nEXISTING PID LIMIT RUNNING FROM ABFL-75 LAKH\nMUTHOOTH FINANCE-35 LAKH\nPITCHED FOR PID\nROI-13-15%\nNotes: cx is interested for virtual meeting at 3pm today\nfranklin@andyannlamination.com \nfranklin@andyannlamination.in"
+      "notes": "ringing ringing , Ringing\nringing\nbusy\nDirect call\nDiscussed with owner\n2 location - coimbatore,banglore\nlast year turnover-40 cr\ncurrent year projection-45-50cr\nNOB- manufacturing of trading Metallized Polypropylene Film\nEXISTING PID LIMIT RUNNING FROM ABFL-75 LAKH\nMUTHOOTH FINANCE-35 LAKH\nPITCHED FOR PID\nROI-13-15%\nNotes: cx is interested for virtual meeting at 3pm today\nfranklin@andyannlamination.com \nfranklin@andyannlamination.in",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56630210",
@@ -2537,7 +2632,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy\nRING\nring\nring"
+      "notes": "busy\nRING\nring\nring",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56639907",
@@ -2560,7 +2656,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing , Constitution of Business\n\nSociety/Club/Trust/Association of Persons"
+      "notes": "ringing , Constitution of Business\n\nSociety/Club/Trust/Association of Persons",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56642797",
@@ -2583,7 +2680,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring  \ndiscussed with CFO \nlast year turnover- 45 cr\ncurrent year projection- same\nnob- construction of building/realestate//consulting firm//building material purchase from distributor\npitched for PID\nROI-13-15%\nLET ME CHECK WHETHER WE CAN PROCESS OR NOT\nbusy\nringing\nbusy\nringing\nringing"
+      "notes": "ring  \ndiscussed with CFO \nlast year turnover- 45 cr\ncurrent year projection- same\nnob- construction of building/realestate//consulting firm//building material purchase from distributor\npitched for PID\nROI-13-15%\nLET ME CHECK WHETHER WE CAN PROCESS OR NOT\nbusy\nringing\nbusy\nringing\nringing",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56664412",
@@ -2606,7 +2704,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call disconnected ringing ringing ringing Ring Disc the call"
+      "notes": "call disconnected ringing ringing ringing Ring Disc the call",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56666084",
@@ -2629,7 +2728,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Lokesh Remarks- I am putting these leads on disqualified because business vintage is less than 2\nBUSY Years ..&nbsp; Ringing Ring Ring"
+      "notes": "Lokesh Remarks- I am putting these leads on disqualified because business vintage is less than 2\nBUSY Years ..&nbsp; Ringing Ring Ring",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56668450",
@@ -2652,7 +2752,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Name :-Sanjay Malik\nPhone Number:- 9501636385\nBTO -750+cr plus \nNature of Business -manufacturing\nProduct Pitched - pid \nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.\nCX IS INTERESTED TO VIRTUAL METTING sanjay.malik@lahorizeera.com"
+      "notes": "Name :-Sanjay Malik\nPhone Number:- 9501636385\nBTO -750+cr plus \nNature of Business -manufacturing\nProduct Pitched - pid \nMeeting Time-12:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  12:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 12:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.\nCX IS INTERESTED TO VIRTUAL METTING sanjay.malik@lahorizeera.com",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56671829",
@@ -2675,7 +2776,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx said call back later after some time no busy Ring call back"
+      "notes": "cx said call back later after some time no busy Ring call back",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56672392",
@@ -2698,7 +2800,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp; ring"
+      "notes": "ringing&nbsp; ring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56696276",
@@ -2721,7 +2824,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nRING\nring, cx roi is high cx ni"
+      "notes": "ring\nRING\nring, cx roi is high cx ni",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56714924",
@@ -2744,7 +2848,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nring\nring"
+      "notes": "RING\nring\nring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56730017",
@@ -2767,7 +2872,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "No busy&nbsp; Ring Ring Ring Ring"
+      "notes": "No busy&nbsp; Ring Ring Ring Ring",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56755966",
@@ -2790,7 +2896,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring ring ring, ring"
+      "notes": "ring ring ring, ring",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56769664",
@@ -2813,7 +2920,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring&nbsp;\nRING\nAs discuss with bhavik shah for pid cx business agro commodities trading last year bto-50cr above cx interested for meeting saturday 12pm as per gst loaction.......... roi pitch 1.1to 1.25% m"
+      "notes": "ring&nbsp;\nRING\nAs discuss with bhavik shah for pid cx business agro commodities trading last year bto-50cr above cx interested for meeting saturday 12pm as per gst loaction.......... roi pitch 1.1to 1.25% m",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56773632",
@@ -2836,7 +2944,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Disc the call Disc the call"
+      "notes": "Disc the call Disc the call",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56778313",
@@ -2859,7 +2968,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nring, \nring\nring"
+      "notes": "RING\nring, \nring\nring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56862287",
@@ -2882,7 +2992,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nring\nRING\nRING\nRING\nRING, RING"
+      "notes": "ring\nring\nRING\nRING\nRING\nRING, RING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57022179",
@@ -2905,30 +3016,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nring\nRING"
-    },
-    {
-      "lead_id": "57022181",
-      "lsq_id": "57022181",
-      "name": "TORNALA SILPA SUMANTH .",
-      "phone": "9963281131",
-      "company": "SRI VATSALA ENTERPRISES",
-      "turnover": "Above ₹25 Cr",
-      "channel": "EMAIL",
-      "campaign": "LSQ_Final_Workable_25Cr_12thNov",
-      "is_pid": true,
-      "product": "PID (>25 Cr)",
-      "stage": "Not Connected (New Lead Lending)",
-      "meet_time": "",
-      "meet_done": "",
-      "file_login": "",
-      "ms": false,
-      "md": false,
-      "fl": false,
-      "is_ms_nov": false,
-      "is_md_nov": false,
-      "is_fl_nov": false,
-      "notes": "RING\nring\nRING, ring"
+      "notes": "RING\nring\nRING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57022211",
@@ -2951,7 +3040,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy\nCompany Based on Bhubaneshwar\nDiscussed in Finance Department\nlast year turnover-112 cr\ncurrent year projection-130 cr\nNob-govt.contractor\ncredit rating as per customer-BBB-\nPitched for PID\nROI Quoted- 13-15% & 11-13% Annually\ncx is interested to do a virtual meeting tomorrow between 12-12:30Pm.\nbichitra@unicornindia.in"
+      "notes": "busy\nCompany Based on Bhubaneshwar\nDiscussed in Finance Department\nlast year turnover-112 cr\ncurrent year projection-130 cr\nNob-govt.contractor\ncredit rating as per customer-BBB-\nPitched for PID\nROI Quoted- 13-15% & 11-13% Annually\ncx is interested to do a virtual meeting tomorrow between 12-12:30Pm.\nbichitra@unicornindia.in",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "57022214",
@@ -2974,30 +3064,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nring\ncx currently working job cx nedd personal loan 90k"
-    },
-    {
-      "lead_id": "57022218",
-      "lsq_id": "57022218",
-      "name": "Hari Kiran Ghanta .",
-      "phone": "9177999108",
-      "company": "Indiancottonsolutions Limited",
-      "turnover": "Above ₹25 Cr",
-      "channel": "EMAIL",
-      "campaign": "LSQ_Final_Workable_25Cr_12thNov",
-      "is_pid": true,
-      "product": "PID (>25 Cr)",
-      "stage": "Disqualified",
-      "meet_time": "",
-      "meet_done": "",
-      "file_login": "",
-      "ms": false,
-      "md": false,
-      "fl": false,
-      "is_ms_nov": false,
-      "is_md_nov": false,
-      "is_fl_nov": false,
-      "notes": "WRONG NUMBER, RING"
+      "notes": "RING\nring\ncx currently working job cx nedd personal loan 90k",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57023002",
@@ -3020,7 +3088,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": true,
-      "notes": "Discuss with owner Kumar he is doing trading turn over 40 cr roi pf inform as per policy 15-16% he will discuss with accountant will share the documents have some trust issue Documents received file log in done"
+      "notes": "Discuss with owner Kumar he is doing trading turn over 40 cr roi pf inform as per policy 15-16% he will discuss with accountant will share the documents have some trust issue Documents received file log in done",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57023004",
@@ -3043,7 +3112,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Voice mail voice mail Not reachable he is out of contry call back next week discuss with personal mob"
+      "notes": "Voice mail voice mail Not reachable he is out of contry call back next week discuss with personal mob",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57023569",
@@ -3066,7 +3136,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "client said call back tomorrow Ring call back turn over 25 cr network issue"
+      "notes": "client said call back tomorrow Ring call back turn over 25 cr network issue",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57023578",
@@ -3089,7 +3160,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "Discuss with finance head Manish he is trader of kidz garments turn over 42 cr need to PID roi pf inform as per policy ready to meet Monday 4 pm confirm on what's up"
+      "notes": "Discuss with finance head Manish he is trader of kidz garments turn over 42 cr need to PID roi pf inform as per policy ready to meet Monday 4 pm confirm on what's up",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57024597",
@@ -3112,7 +3184,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "ring\nas discuss ith accountant head pavan for pid cx business SEA FOOD  AND COOPER OTHER BUSINESS cx bto- 60cr last year projection 80cr cx interested to meet on monday 2nd half as per gst location."
+      "notes": "ring\nas discuss ith accountant head pavan for pid cx business SEA FOOD  AND COOPER OTHER BUSINESS cx bto- 60cr last year projection 80cr cx interested to meet on monday 2nd half as per gst location.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "57025430",
@@ -3135,7 +3208,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "voice mail call back monday Discuss with personal mob client said he is of paper Manufeture  turn over 70 cr  Interested in Pid roi pf inform as per policy but our thor showing is rejected due to one director cibil is 643 because showing is guarantor discuss with anshul he said arrange meeting we can do subject to company financial other terms client ready to meet today after 2 pm confirm on what's up share the location"
+      "notes": "voice mail call back monday Discuss with personal mob client said he is of paper Manufeture  turn over 70 cr  Interested in Pid roi pf inform as per policy but our thor showing is rejected due to one director cibil is 643 because showing is guarantor discuss with anshul he said arrange meeting we can do subject to company financial other terms client ready to meet today after 2 pm confirm on what's up share the location",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "57026627",
@@ -3158,7 +3232,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "client said he is IT services now he is traveling call back monday\nringing \nRINGING \ncall back\ncall back \nRINGING \nCALL DISCONNECT DURING THE CALL \nRINGING\nCALL DISCONNECT BY CXZ\nringing\nringing"
+      "notes": "client said he is IT services now he is traveling call back monday\nringing \nRINGING \ncall back\ncall back \nRINGING \nCALL DISCONNECT DURING THE CALL \nRINGING\nCALL DISCONNECT BY CXZ\nringing\nringing",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57049845",
@@ -3181,7 +3256,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "meeting done . client will share docs on 21st November"
+      "notes": "meeting done . client will share docs on 21st November",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "57051673",
@@ -3204,7 +3280,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nring\nBUSY  ON ANOTHER CALL\nNOT INTERESTED"
+      "notes": "ring\nring\nBUSY  ON ANOTHER CALL\nNOT INTERESTED",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57061762",
@@ -3227,7 +3304,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Busy"
+      "notes": "Busy",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57114220",
@@ -3250,7 +3328,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": true,
-      "notes": "Client has received PID limits from Aditya Birla. CC from DBS Bank - 6.5 Cr. premium electronics brand SMEG. Also doing mobiles trading for multiple brands. Showroom in Multiple cities like Ahmedabad, Mumbai, Bangalore\n\netc.\n\n2 Cr limits required immediately for a corporate large purchase before Nov 28th."
+      "notes": "Client has received PID limits from Aditya Birla. CC from DBS Bank - 6.5 Cr. premium electronics brand SMEG. Also doing mobiles trading for multiple brands. Showroom in Multiple cities like Ahmedabad, Mumbai, Bangalore\n\netc.\n\n2 Cr limits required immediately for a corporate large purchase before Nov 28th.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56423055",
@@ -3273,7 +3352,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "disq.\nNOT CONNECTED"
+      "notes": "disq.\nNOT CONNECTED",
+      "turnover_bucket": "Under ₹10 Cr"
     },
     {
       "lead_id": "56627902",
@@ -3296,7 +3376,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": true,
-      "notes": "CALL RINGING   \nAs discuss with partner praveen kumar for pid cx business chemical manufacturing and trading bto-36cr last year this year projection 50cr above cx interested to meet tomorrow 2nd half as per gst addresss."
+      "notes": "CALL RINGING   \nAs discuss with partner praveen kumar for pid cx business chemical manufacturing and trading bto-36cr last year this year projection 50cr above cx interested to meet tomorrow 2nd half as per gst addresss.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56629052",
@@ -3319,7 +3400,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp;\n11/11/26 busy\nring, ring, \nAs discuss with owner husband for pid cx business edible oil distributor bto-25cr last year cx recent octb bto-40cr+ and projection 50cr above cx interested for meeting tomorrow 12 pm as per gst location"
+      "notes": "ringing&nbsp;\n11/11/26 busy\nring, ring, \nAs discuss with owner husband for pid cx business edible oil distributor bto-25cr last year cx recent octb bto-40cr+ and projection 50cr above cx interested for meeting tomorrow 12 pm as per gst location",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56630294",
@@ -3342,7 +3424,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp; ringing, ring , ring"
+      "notes": "ringing&nbsp; ringing, ring , ring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56630896",
@@ -3365,7 +3448,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\nringing\nbusy\nNo need to loan"
+      "notes": "ringing\nringing\nbusy\nNo need to loan",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56634795",
@@ -3388,7 +3472,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "buzy ring not connect Lokesh Remarks- I am putting these leads on disqualified because business vintage is less than 2 Years ..&nbsp;\nnot answered\nnot answered\n\n**Customer Discussion & Meeting Update – Manjunath**\n\n- **Contact Person:** Mr. Manjunath (Business Owner)\n- **Business Vintage:** 1.5 Years\n- **Business Activity:** Trader – Wholesaler/Distributor of Aluminium\n- **Annual Turnover:** ₹100 Crores\n- **PID Eligibility:** Customer is not eligible for PID due to the business vintage being only 1.5 years.\n- **Customer Interest:** Interested in DOD.\n- **ROI Discussed:** Confirmed a maximum ROI of 16%.\n- **Meeting Availability:** Friday, 20th November 2026, at 12:00 PM.\n- **Meeting Venue:** Customer's business address.\n\n**Next Step:** A physical meeting is scheduled at the customer's business premises on Friday, 20th November 2026, at 12:00 PM to discuss DOD further."
+      "notes": "buzy ring not connect Lokesh Remarks- I am putting these leads on disqualified because business vintage is less than 2 Years ..&nbsp;\nnot answered\nnot answered\n\n**Customer Discussion & Meeting Update – Manjunath**\n\n- **Contact Person:** Mr. Manjunath (Business Owner)\n- **Business Vintage:** 1.5 Years\n- **Business Activity:** Trader – Wholesaler/Distributor of Aluminium\n- **Annual Turnover:** ₹100 Crores\n- **PID Eligibility:** Customer is not eligible for PID due to the business vintage being only 1.5 years.\n- **Customer Interest:** Interested in DOD.\n- **ROI Discussed:** Confirmed a maximum ROI of 16%.\n- **Meeting Availability:** Friday, 20th November 2026, at 12:00 PM.\n- **Meeting Venue:** Customer's business address.\n\n**Next Step:** A physical meeting is scheduled at the customer's business premises on Friday, 20th November 2026, at 12:00 PM to discuss DOD further.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56647622",
@@ -3411,7 +3496,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "cx not available on this call    ring, As discuss with owner Anurag kuamr for import and SID listed buyer cx business metal trading bto-60 to 70cr ..... cx interested for meeting wednesday 4pm as per gurgaon loaction sect 48."
+      "notes": "cx not available on this call    ring, As discuss with owner Anurag kuamr for import and SID listed buyer cx business metal trading bto-60 to 70cr ..... cx interested for meeting wednesday 4pm as per gurgaon loaction sect 48.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56697225",
@@ -3434,7 +3520,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\ncall forwarded\ncall forwarded\ncall forwarded\ncall forwarded"
+      "notes": "ringing\ncall forwarded\ncall forwarded\ncall forwarded\ncall forwarded",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56715697",
@@ -3457,7 +3544,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing ringing ringing\nnot reachable Ring Ring\nRinging No busy"
+      "notes": "ringing ringing ringing\nnot reachable Ring Ring\nRinging No busy",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56720504",
@@ -3480,7 +3568,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back cx ne bola h morning m call kr lo"
+      "notes": "call back cx ne bola h morning m call kr lo",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56779695",
@@ -3503,30 +3592,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\ncall forwarded\ncall forwarded\nringing\nringing\nringing\nbusy\nDirect call\nDiscussed with Partner\nLast year Turnover-100 cr+\nCurrent year Projection- More than 100cr+\nNob- Manufacturing denim textile \nPITCHED FOR PID\nROI-13-15%\nNotes: cx having a group of company and want to meet on monday as per gst address and cx told share my number to your advisor accordingly we will coordinate."
-    },
-    {
-      "lead_id": "57167251",
-      "lsq_id": "57167251",
-      "name": "Tushar Thakkar .",
-      "phone": "9725017270",
-      "company": "Shree Uma Infrastructure",
-      "turnover": "Above ₹25 Cr",
-      "channel": "EMAIL",
-      "campaign": "LSQ_Final_Workable_25Cr_16thNov",
-      "is_pid": true,
-      "product": "PID (>25 Cr)",
-      "stage": "Not Interested",
-      "meet_time": "",
-      "meet_done": "",
-      "file_login": "",
-      "ms": false,
-      "md": false,
-      "fl": false,
-      "is_ms_nov": false,
-      "is_md_nov": false,
-      "is_fl_nov": false,
-      "notes": "ring Ring Ring\nRING Discuss with personal mob Owner Tushar he is trader of kapas turn over 34 cr suggest DOD roi pf inform as per policy he said have one more company his friend same business turn over 78 cr suggest PID ready to meet Monday second half gst or location will share on what's up multiple dpd is showing we can not fund"
+      "notes": "ringing\ncall forwarded\ncall forwarded\nringing\nringing\nringing\nbusy\nDirect call\nDiscussed with Partner\nLast year Turnover-100 cr+\nCurrent year Projection- More than 100cr+\nNob- Manufacturing denim textile \nPITCHED FOR PID\nROI-13-15%\nNotes: cx having a group of company and want to meet on monday as per gst address and cx told share my number to your advisor accordingly we will coordinate.",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "57167254",
@@ -3549,7 +3616,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "ring\n**PID – Customer Discussion Update**\n\n- **Discussion With:** Ronak (Director)\n- **Communication:** Connected with the Director over WhatsApp.\n- **Accountant Contact:** Director shared Athul's contact number for further coordination.\n- **Business Profile:** Snacks Manufacturing (Own Brand – DEV)\n- **Product:** Purchase Invoice Discounting (PID)\n- **BTO:** ₹80 Cr\n- **Business Location:** Kollam, Kerala\n- **Customer Interest:** Interested in a virtual meeting.\n- **Meeting Schedule:** Today at 12:30 PM\n- **Internal Coordination:** All meeting-related details were discussed with Varun Sir.\n- **Meeting Allocation:** Varun Sir assigned the meeting to Sagar (Field Agent).\n\n**Next Step:** Sagar (Field Agent) to coordinate and conduct the meeting with the customer."
+      "notes": "ring\n**PID – Customer Discussion Update**\n\n- **Discussion With:** Ronak (Director)\n- **Communication:** Connected with the Director over WhatsApp.\n- **Accountant Contact:** Director shared Athul's contact number for further coordination.\n- **Business Profile:** Snacks Manufacturing (Own Brand – DEV)\n- **Product:** Purchase Invoice Discounting (PID)\n- **BTO:** ₹80 Cr\n- **Business Location:** Kollam, Kerala\n- **Customer Interest:** Interested in a virtual meeting.\n- **Meeting Schedule:** Today at 12:30 PM\n- **Internal Coordination:** All meeting-related details were discussed with Varun Sir.\n- **Meeting Allocation:** Varun Sir assigned the meeting to Sagar (Field Agent).\n\n**Next Step:** Sagar (Field Agent) to coordinate and conduct the meeting with the customer.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57172133",
@@ -3572,7 +3640,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "He said share all details on whts app\ncustomer said he will share docs tomorrow\ncall disconnect by cx\nnot interested due to high ROI"
+      "notes": "He said share all details on whts app\ncustomer said he will share docs tomorrow\ncall disconnect by cx\nnot interested due to high ROI",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57174827",
@@ -3595,7 +3664,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57176346",
@@ -3618,7 +3688,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring"
+      "notes": "ring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57205292",
@@ -3641,20 +3712,21 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nRING"
+      "notes": "ring\nRING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
-      "lead_id": "56673147",
-      "lsq_id": "661265",
-      "name": "ZAMIRA LIFE SCIENCES INDIA PVT LTD .",
-      "phone": "7709951708",
-      "company": "ZAMIRA LIFESCIENCES INDIA PRIVATE LIMITED",
-      "turnover": "₹51.0 Cr",
+      "lead_id": "57022181",
+      "lsq_id": "57022181",
+      "name": "TORNALA SILPA SUMANTH .",
+      "phone": "9963281131",
+      "company": "SRI VATSALA ENTERPRISES",
+      "turnover": "Above ₹25 Cr",
       "channel": "EMAIL",
       "campaign": "LSQ_Final_Workable_25Cr_20thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -3664,7 +3736,32 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "RING\nring\nRING, ring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
+    },
+    {
+      "lead_id": "57022218",
+      "lsq_id": "57022218",
+      "name": "Hari Kiran Ghanta .",
+      "phone": "9177999108",
+      "company": "Indiancottonsolutions Limited",
+      "turnover": "Above ₹25 Cr",
+      "channel": "EMAIL",
+      "campaign": "LSQ_Final_Workable_25Cr_20thNov",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "Disqualified",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": "WRONG NUMBER, RING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57321497",
@@ -3687,7 +3784,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring"
+      "notes": "ring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57325072",
@@ -3710,7 +3808,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call forwarded\ndiscussed with partner\nlast year turnover -40 cr\ncurrent year projection-40-45 cr\nnob- medicine distributor\npitched for PID\nROI-13-15%\nCX IS INTERESTED FOR IN PERSON MEETING ON MONDAY AFTER 10:30AM AND ADVISOR WILL COORDINATE BEFORE FIELD VISIT.\n\"184, BOOPANA VENKETARTNAM STREET, NERKUNDRUM, Chennai, Tamil Nadu, 600107\""
+      "notes": "call forwarded\ndiscussed with partner\nlast year turnover -40 cr\ncurrent year projection-40-45 cr\nnob- medicine distributor\npitched for PID\nROI-13-15%\nCX IS INTERESTED FOR IN PERSON MEETING ON MONDAY AFTER 10:30AM AND ADVISOR WILL COORDINATE BEFORE FIELD VISIT.\n\"184, BOOPANA VENKETARTNAM STREET, NERKUNDRUM, Chennai, Tamil Nadu, 600107\"",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56423000",
@@ -3733,7 +3832,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "As discussed with proprietor currnet 7 month turnover is 27.4cr , projection is about 40cr .. He is doing mobile trading business ... Product pitched -Paylater with ROI of 15% , Pf 1.5% , Cash Margin - 15%"
+      "notes": "As discussed with proprietor currnet 7 month turnover is 27.4cr , projection is about 40cr .. He is doing mobile trading business ... Product pitched -Paylater with ROI of 15% , Pf 1.5% , Cash Margin - 15%",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56686571",
@@ -3756,7 +3856,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy\nbusy, Busy\nbusy , Busy\nringing\nringing\nbusy\nringing\nbusy"
+      "notes": "busy\nbusy, Busy\nbusy , Busy\nringing\nringing\nbusy\nringing\nbusy",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56707297",
@@ -3779,7 +3880,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back after sometime, RING, ring, ring"
+      "notes": "call back after sometime, RING, ring, ring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56707388",
@@ -3802,7 +3904,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING\nBUSY, Provide CA Number - 9703797491- Vaishav  , Discuss With Director And Confirm Interssted Or Not , Company Turnover 575 Cr , Rating BBB- , Customer Want - 8 to 9% Roi , \nbusy , Ringing , Ringing"
+      "notes": "RINGING\nBUSY, Provide CA Number - 9703797491- Vaishav  , Discuss With Director And Confirm Interssted Or Not , Company Turnover 575 Cr , Rating BBB- , Customer Want - 8 to 9% Roi , \nbusy , Ringing , Ringing",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56764269",
@@ -3825,7 +3928,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nCX BTO- 125CR CX WANT ONLY 10% ROI NOT REQ"
+      "notes": "RING\nCX BTO- 125CR CX WANT ONLY 10% ROI NOT REQ",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56767094",
@@ -3848,7 +3952,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CX BUSIENSS ELECTRICAL ITEM BUYER IS RATED BTO-100CR + CX WANT 9% ROI LAST\nring"
+      "notes": "CX BUSIENSS ELECTRICAL ITEM BUYER IS RATED BTO-100CR + CX WANT 9% ROI LAST\nring",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56775580",
@@ -3871,7 +3976,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy\nringing , Ringing\nbusy\nbusy , Busy\ncx told not interested and not ready to listen"
+      "notes": "busy\nringing , Ringing\nbusy\nbusy , Busy\ncx told not interested and not ready to listen",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56780655",
@@ -3894,7 +4000,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING\ncall forwarded\ncall forwarded , Ringing , Ringing, RING, RING"
+      "notes": "RINGING\ncall forwarded\ncall forwarded , Ringing , Ringing, RING, RING",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56966103",
@@ -3917,7 +4024,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": true,
-      "notes": "As discuss with manoj patel for pid and paylater cx busienss amula and Cadbury dairy product cx bto- 60cr + both. company projection 20% growth per year ... cx interested to virtual meeting tomorrow 11am than after docs shared 2 firm."
+      "notes": "As discuss with manoj patel for pid and paylater cx busienss amula and Cadbury dairy product cx bto- 60cr + both. company projection 20% growth per year ... cx interested to virtual meeting tomorrow 11am than after docs shared 2 firm.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56968213",
@@ -3940,7 +4048,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING, ring, RING"
+      "notes": "RING, ring, RING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56984199",
@@ -3963,7 +4072,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CX BUSINESS MAINPOWER SUPPLY SERVICES BTO-220CR BBB STABLE RATING COM PANY DISCUSSW ITH SIDDHANT SIR NOT DOUABLE FOR PID AND CX NI FOR DOD"
+      "notes": "CX BUSINESS MAINPOWER SUPPLY SERVICES BTO-220CR BBB STABLE RATING COM PANY DISCUSSW ITH SIDDHANT SIR NOT DOUABLE FOR PID AND CX NI FOR DOD",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57099389",
@@ -3986,7 +4096,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "Discuss with owner client said he is Manufeture of Jeans turnover 108 cr roi pf inform as per policy ready to meet tomorrow 12 pm location or gst no will share on what's up"
+      "notes": "Discuss with owner client said he is Manufeture of Jeans turnover 108 cr roi pf inform as per policy ready to meet tomorrow 12 pm location or gst no will share on what's up",
+      "turnover_bucket": "₹10 Cr – ₹24 Cr"
     },
     {
       "lead_id": "56680151",
@@ -4009,7 +4120,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Name :-Manjunath \nPhone Number:- 9867060615\nBTO -47+cr plus \nNature of Business -servies provieder \nProduct Pitched -PID\nMeeting Time-11:30 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  11:30 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer INTERESTED TO VIRTUAL METING vbicatering@gmail.com"
+      "notes": "Name :-Manjunath \nPhone Number:- 9867060615\nBTO -47+cr plus \nNature of Business -servies provieder \nProduct Pitched -PID\nMeeting Time-11:30 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  11:30 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer INTERESTED TO VIRTUAL METING vbicatering@gmail.com",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56698240",
@@ -4032,7 +4144,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ringing (Customer connected via campaign LSQ_25Cr_Industry_17thNov26)"
+      "notes": "Ringing (Customer connected via campaign LSQ_25Cr_Industry_17thNov26)",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56712047",
@@ -4055,7 +4168,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ring Discuss with Owner Anil Sarkar he have a Logistics Company turn over 49 cr to 42 cr turn over DIP explain PID with Mas Finance or DOD interested to meet today our advisor timing will confirm with our advisor"
+      "notes": "Ring Discuss with Owner Anil Sarkar he have a Logistics Company turn over 49 cr to 42 cr turn over DIP explain PID with Mas Finance or DOD interested to meet today our advisor timing will confirm with our advisor",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57066230",
@@ -4078,7 +4192,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "Name :-RAMRATAN SINGHI\nPhone Number:- 9971254433\nBTO -82+cr plus \nNature of Business -manufacturing\nProduct Pitched - PID\nMeeting Time-01:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  01:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 01:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.\nCX IS INTERESTED TO VIRTUAL METTING RAM@SUREGROUP.IN"
+      "notes": "Name :-RAMRATAN SINGHI\nPhone Number:- 9971254433\nBTO -82+cr plus \nNature of Business -manufacturing\nProduct Pitched - PID\nMeeting Time-01:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  01:00 Pm \nI spoke with the customer regarding pid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 01:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.\nCX IS INTERESTED TO VIRTUAL METTING RAM@SUREGROUP.IN",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57067692",
@@ -4101,7 +4216,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Name :-Bhavin Sanghvi\nPhone Number:-9029000081\nBTO -78+cr plus \nNature of Business - cemical treding \nProduct Pitched - SID\nMeeting Time-3:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  0:00 Pm \nI spoke with the customer regarding sid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 03:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir."
+      "notes": "Name :-Bhavin Sanghvi\nPhone Number:-9029000081\nBTO -78+cr plus \nNature of Business - cemical treding \nProduct Pitched - SID\nMeeting Time-3:00 PM \nRemarks - Discussed with customer , He is interested to meet for PID Business is  Meeting Time Given  0:00 Pm \nI spoke with the customer regarding sid/ . The customer is interested in the product, and I pitched an ROI of 13to15%\nThe customer confirmed that they will be coming to the office tomorrow after 03:00 PM.\nThis meeting was scheduled after discussing it with Lokesh Sir.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56395242",
@@ -4124,7 +4240,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring  RING&nbsp; cx said I will &nbsp;tell you follow up call Monday&nbsp; CALL BACK&nbsp; cx said call back after 15 june i so busy 2 3 week till now&nbsp; RINGING&nbsp; NOT INTERESTED"
+      "notes": "ring  RING&nbsp; cx said I will &nbsp;tell you follow up call Monday&nbsp; CALL BACK&nbsp; cx said call back after 15 june i so busy 2 3 week till now&nbsp; RINGING&nbsp; NOT INTERESTED",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56679341",
@@ -4147,7 +4264,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "call ended\nDirect call-\ndiscussed with director\nlast year turnover-65 cr\nNOB-SERVICE//INTERIOR\nPITCHED FOR PID\nROI -13-15% \nNotes: \nCustomer having some doubts regarding vendor financing\ncall arranged with SAGAR \ncx is interested to share set of documents"
+      "notes": "call ended\nDirect call-\ndiscussed with director\nlast year turnover-65 cr\nNOB-SERVICE//INTERIOR\nPITCHED FOR PID\nROI -13-15% \nNotes: \nCustomer having some doubts regarding vendor financing\ncall arranged with SAGAR \ncx is interested to share set of documents",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "57199971",
@@ -4170,7 +4288,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\ncall received and disconnected by cx during introductions\nringing\nringing\nnot reachable"
+      "notes": "ringing\ncall received and disconnected by cx during introductions\nringing\nringing\nnot reachable",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57200143",
@@ -4193,7 +4312,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not reachable\nnot reachable\nnot reachable\nnot reachable\nnot reachable\nnot reachable\nnot reachable"
+      "notes": "not reachable\nnot reachable\nnot reachable\nnot reachable\nnot reachable\nnot reachable\nnot reachable",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56402182",
@@ -4216,7 +4336,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Not Reachable Customer Interested For Pid And Call Back On 2nd Of April  Meeting Schedule  spoken person is Director Mr. Sameer Kothari. He is interested in PID. wholesaler/distributor of chemicals Company  turnover of 35 crore, while LSQ is showing 62 crore. The customer has confirmed the meeting time on my personal phone, and I have a recording of the same. meeting is scheduled for 3rd April after 3 PM."
+      "notes": "Not Reachable Customer Interested For Pid And Call Back On 2nd Of April  Meeting Schedule  spoken person is Director Mr. Sameer Kothari. He is interested in PID. wholesaler/distributor of chemicals Company  turnover of 35 crore, while LSQ is showing 62 crore. The customer has confirmed the meeting time on my personal phone, and I have a recording of the same. meeting is scheduled for 3rd April after 3 PM.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56487075",
@@ -4239,7 +4360,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING&nbsp; ring&nbsp;\nring RING, ring\"\nringing \ncustomer said call back on Monday \nRINGING\nringing"
+      "notes": "RING&nbsp; ring&nbsp;\nring RING, ring\"\nringing \ncustomer said call back on Monday \nRINGING\nringing",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56631768",
@@ -4262,7 +4384,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "ring RING&nbsp; ring ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring RING RING ring RING 'ring ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring RING&nbsp; ring&nbsp; RING RING ring ring&nbsp; RING ring&nbsp; ring&nbsp; ring&nbsp;"
+      "notes": "ring RING&nbsp; ring ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring RING RING ring RING 'ring ring&nbsp; ring&nbsp; ring&nbsp; ring&nbsp; ring RING&nbsp; ring&nbsp; RING RING ring ring&nbsp; RING ring&nbsp; ring&nbsp; ring&nbsp;",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56653500",
@@ -4285,7 +4408,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "Discussed with Owner Mr. Parimal  Gandhi regarding PID. Customer is a wholesaler and distributor of mobile phones and mobile accessories, with an annual turnover of 200 Cr. Meeting is scheduled for monday in the second half.\n\nImportant Note: Customer is available only between 2:00 PM and 3:00 PM and will not be available after 3:00 PM. Please ensure the meeting is scheduled within this time slot."
+      "notes": "Discussed with Owner Mr. Parimal  Gandhi regarding PID. Customer is a wholesaler and distributor of mobile phones and mobile accessories, with an annual turnover of 200 Cr. Meeting is scheduled for monday in the second half.\n\nImportant Note: Customer is available only between 2:00 PM and 3:00 PM and will not be available after 3:00 PM. Please ensure the meeting is scheduled within this time slot.",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56655008",
@@ -4308,7 +4432,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\ncx want call back after 03:30pm today , Ringing\nbusy\nringing\ncx shared alternate number on email-8369727203-ringing\ndiscussed with Ajith\nringing\nlast year turnover-24 cr\ncurrent year Projection-50 cr\nnob- service provider//export-90%\nlet me check with SID\nexisting CC limit-8.5 cr\nROI quoted- 13-15%\nlet me check with credit team and customer name\nbusy\nringing\nbusy\ncall forwarded"
+      "notes": "ringing\ncx want call back after 03:30pm today , Ringing\nbusy\nringing\ncx shared alternate number on email-8369727203-ringing\ndiscussed with Ajith\nringing\nlast year turnover-24 cr\ncurrent year Projection-50 cr\nnob- service provider//export-90%\nlet me check with SID\nexisting CC limit-8.5 cr\nROI quoted- 13-15%\nlet me check with credit team and customer name\nbusy\nringing\nbusy\ncall forwarded",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56680137",
@@ -4331,7 +4456,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call received and disconnected by cx during introduction\nbusy\nbusy , Busy , Busy\nnot reachable\nbusy\ndirect call- cx told no requirement"
+      "notes": "call received and disconnected by cx during introduction\nbusy\nbusy , Busy , Busy\nnot reachable\nbusy\ndirect call- cx told no requirement",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56686553",
@@ -4354,7 +4480,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx confirmed on whatsapp and want call back on 13th\ncx confirmed on whatsapp and want call back on 13th\ncx confirmed on whatsapp and want call back on 13th\nBusy , Call Disconnect\ncall forwarded\nbusy\ncall forwarded\ndirect call - call forwarded\ncall forwarded"
+      "notes": "cx confirmed on whatsapp and want call back on 13th\ncx confirmed on whatsapp and want call back on 13th\ncx confirmed on whatsapp and want call back on 13th\nBusy , Call Disconnect\ncall forwarded\nbusy\ncall forwarded\ndirect call - call forwarded\ncall forwarded",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56705029",
@@ -4377,7 +4504,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\nnot reachable\nringing\nbusy\nCX TOLD I AM IN GOLF COURSE AND NOT SHARE CALL BACK TIME AND DISCONNECTED THE CALL\nbusy ,Ringing\nbusy\nringing\nringing\nringing\ndirect call- cx is playing golf and disconnected the call\nringing"
+      "notes": "ringing\nnot reachable\nringing\nbusy\nCX TOLD I AM IN GOLF COURSE AND NOT SHARE CALL BACK TIME AND DISCONNECTED THE CALL\nbusy ,Ringing\nbusy\nringing\nringing\nringing\ndirect call- cx is playing golf and disconnected the call\nringing",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56708804",
@@ -4400,7 +4528,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring RING, ring, RING"
+      "notes": "ring RING, ring, RING",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56709472",
@@ -4423,7 +4552,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "Direct Call\nDiscussed with Director\nMarch 24- 9 cr\nMarch-25-92 cr\nMarch-26-160 cr\nCurrent till September-120cr\ncurrent year Projection-200 cr\nNob- Trading of lubricant(import/domestic Purchase)\nRequirement- Vendor Financing\nROI- 13-15%\nCX IS INTERESTED IN VIRTUAL MEETING FIRST TO UNDERSTAND THE PRODUCT ACCORDINGLY WILL do in person meeting later.\n(Same Discussed with Lokesh Sir)"
+      "notes": "Direct Call\nDiscussed with Director\nMarch 24- 9 cr\nMarch-25-92 cr\nMarch-26-160 cr\nCurrent till September-120cr\ncurrent year Projection-200 cr\nNob- Trading of lubricant(import/domestic Purchase)\nRequirement- Vendor Financing\nROI- 13-15%\nCX IS INTERESTED IN VIRTUAL MEETING FIRST TO UNDERSTAND THE PRODUCT ACCORDINGLY WILL do in person meeting later.\n(Same Discussed with Lokesh Sir)",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56711770",
@@ -4446,7 +4576,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "CALL FORWARDED\ncall forwarded , Monday Call Back , Discussed with Partner Mr. Dinesh Rungta regarding PayLater. customer is a steel wholesaler with an annual turnover of 33 Cr. An ROI of 15% was pitched. Meeting is scheduled for Tuesday after 12:00 PM."
+      "notes": "CALL FORWARDED\ncall forwarded , Monday Call Back , Discussed with Partner Mr. Dinesh Rungta regarding PayLater. customer is a steel wholesaler with an annual turnover of 33 Cr. An ROI of 15% was pitched. Meeting is scheduled for Tuesday after 12:00 PM.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56765132",
@@ -4469,7 +4600,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring \nring\nringing\ninterested for loan share documents \nRINGING \nring\nRING\nring\nRING\nringing\nringing\nnot interested"
+      "notes": "ring \nring\nringing\ninterested for loan share documents \nRINGING \nring\nRING\nring\nRING\nringing\nringing\nnot interested",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56779156",
@@ -4492,7 +4624,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring \nring\nRING\nring\nRING"
+      "notes": "ring \nring\nRING\nring\nRING",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56834480",
@@ -4515,7 +4648,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "as discuss with nikhil sarge for pid cx business apple and luxury item trading bto-237cr last year and  receny oct bto-400cr ..projection 750cr .... cx intereted virtual meet with rahul sir for tuesday 12pm"
+      "notes": "as discuss with nikhil sarge for pid cx business apple and luxury item trading bto-237cr last year and  receny oct bto-400cr ..projection 750cr .... cx intereted virtual meet with rahul sir for tuesday 12pm",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56841006",
@@ -4538,7 +4672,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring \nring\nRING\ncx ni for pid"
+      "notes": "ring \nring\nRING\ncx ni for pid",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56841067",
@@ -4561,7 +4696,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nring\n\ncall disconnect \nRING\nRING\nCALL DISCONNECT\nCALL DISCONNECT BY CX\nnew comppnay"
+      "notes": "RING\nring\n\ncall disconnect \nRING\nRING\nCALL DISCONNECT\nCALL DISCONNECT BY CX\nnew comppnay",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56847298",
@@ -4584,7 +4720,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nRING\nRING\nring"
+      "notes": "ring\nRING\nRING\nring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876516",
@@ -4607,7 +4744,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\nringing\nringing\nringing\nbusy\nbusy , Busy\nbusy\nnot reachable\nbusy\nbusy"
+      "notes": "ringing\nringing\nringing\nringing\nbusy\nbusy , Busy\nbusy\nnot reachable\nbusy\nbusy",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876517",
@@ -4630,7 +4768,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "meeting schedule\n roi issue"
+      "notes": "meeting schedule\n roi issue",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876518",
@@ -4653,7 +4792,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back\ncall back monday cx leave\nNOT REACH\ncx monday office jayega fir baat krega\nring, ring"
+      "notes": "call back\ncall back monday cx leave\nNOT REACH\ncx monday office jayega fir baat krega\nring, ring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876519",
@@ -4676,7 +4816,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy\nbusy\nbusy , Busy"
+      "notes": "busy\nbusy\nbusy , Busy",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876520",
@@ -4699,7 +4840,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING\nring\nRING\nring\nRING"
+      "notes": "RING\nring\nRING\nring\nRING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876521",
@@ -4722,7 +4864,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Startup business\nRINGING\nRINGING\nRINGING"
+      "notes": "Startup business\nRINGING\nRINGING\nRINGING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876523",
@@ -4745,7 +4888,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Startup business\nHE SAID CALL BACK\nringing \nRINGING"
+      "notes": "Startup business\nHE SAID CALL BACK\nringing \nRINGING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "57091292",
@@ -4768,7 +4912,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ring call back busy\nDiscuss with personal mob owner sandeep said he has a logistic company turn over 110-100 cr  Dip due to resume to some services interested in PID roi inform 13%-15% PF 1.5% ready to meet on monday 11 to 12 pm between recording not available discuss with Lokesh sir location or gst no share on what's up"
+      "notes": "Ring call back busy\nDiscuss with personal mob owner sandeep said he has a logistic company turn over 110-100 cr  Dip due to resume to some services interested in PID roi inform 13%-15% PF 1.5% ready to meet on monday 11 to 12 pm between recording not available discuss with Lokesh sir location or gst no share on what's up",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56772179",
@@ -4791,7 +4936,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING BUSY ANOTHER CALL&nbsp;\nring cx ni forpid roi issue cx want 9% roi"
+      "notes": "RING BUSY ANOTHER CALL&nbsp;\nring cx ni forpid roi issue cx want 9% roi",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56876514",
@@ -4814,7 +4960,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing\ncall forwarded\nCall ringing.. call ended\ncall forwarded\nbusy , Not Reachable\nring"
+      "notes": "ringing\ncall forwarded\nCall ringing.. call ended\ncall forwarded\nbusy , Not Reachable\nring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56493880",
@@ -4837,7 +4984,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ringing\nnot reachable\nCall forwarded\nCall forwarded\nCall forwarded , No Need\nringing"
+      "notes": "Ringing\nnot reachable\nCall forwarded\nCall forwarded\nCall forwarded , No Need\nringing",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56711045",
@@ -4860,7 +5008,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": true,
-      "notes": "Discussed with director\nCustomer having 2-3 companies\nlast year turnover-70cr\ncurrent year projection-more than 150cr+\nNob- trading of electronics/agriculture//diamond\nNotes: Just brief about the PID\nROI QUOTED-13-15%\nCustomer is looking for export and import financing\nAlso getting offered from drip capital for 2 companies\ncx is interested for in person meeting for today at 3pm on gst address."
+      "notes": "Discussed with director\nCustomer having 2-3 companies\nlast year turnover-70cr\ncurrent year projection-more than 150cr+\nNob- trading of electronics/agriculture//diamond\nNotes: Just brief about the PID\nROI QUOTED-13-15%\nCustomer is looking for export and import financing\nAlso getting offered from drip capital for 2 companies\ncx is interested for in person meeting for today at 3pm on gst address.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56771667",
@@ -4883,7 +5032,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\ncx roi issue cx want 9% pn roi bto-95cr stable"
+      "notes": "ring\ncx roi issue cx want 9% pn roi bto-95cr stable",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56772384",
@@ -4906,7 +5056,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not reachable\ncx confirmed on email no such requirement\nringing \ncall disconnect by cx"
+      "notes": "not reachable\ncx confirmed on email no such requirement\nringing \ncall disconnect by cx",
+      "turnover_bucket": "Above ₹100 Cr"
     },
     {
       "lead_id": "56772613",
@@ -4929,7 +5080,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx want sid but bto-25cr and buyer unlisted\ncx ni other product call cut"
+      "notes": "cx want sid but bto-25cr and buyer unlisted\ncx ni other product call cut",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56780414",
@@ -4952,7 +5104,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nRING\nNOT INTERESTED \nring\nRINGING\ncall disconnect by cx\nring"
+      "notes": "ring\nRING\nNOT INTERESTED \nring\nRINGING\ncall disconnect by cx\nring",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56814884",
@@ -4975,7 +5128,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "48 cr , trading , 20172nd Floor,, Site No 26,27,, Tulasi House,, Radial Road,, Nandini Layout, Bangalore, Bengaluru Urban, Karnataka, 560096"
+      "notes": "48 cr , trading , 20172nd Floor,, Site No 26,27,, Tulasi House,, Radial Road,, Nandini Layout, Bangalore, Bengaluru Urban, Karnataka, 560096",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56861249",
@@ -4998,7 +5152,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Call received but not getting response from cx side\nringing , Busy\nalternat       e number-9916134611- cx want call back on this number only\nnot reachable\nDiscussed with Owner Mr. L. N. Raghu regarding a Short-Term Business Loan. The company is engaged in providing software services, with an annual turnover of ₹42 Cr. The customer requested a call from the Bangalore advisor to discuss the loan requirements and share the necessary documents."
+      "notes": "Call received but not getting response from cx side\nringing , Busy\nalternat       e number-9916134611- cx want call back on this number only\nnot reachable\nDiscussed with Owner Mr. L. N. Raghu regarding a Short-Term Business Loan. The company is engaged in providing software services, with an annual turnover of ₹42 Cr. The customer requested a call from the Bangalore advisor to discuss the loan requirements and share the necessary documents.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56861288",
@@ -5021,7 +5176,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy\nbusy\nswitched off\nbusy\nbusy\nbusy , Ringing , Ringing\nbusy\nringing\nringing\nbusy\nbusy\nringing\ndiscussed with Manish taking care of sales \nlast year turnover- 112 cr\ncurrent year projection-150cr\nNob-manufacturing and trading of steel \nPitched for PID\nROI-13-155\nCx is interested to meet on wednesday in 2nd half to discuss in detail about product.\nmeeting will be scheduled once office location received on whatsapp"
+      "notes": "busy\nbusy\nswitched off\nbusy\nbusy\nbusy , Ringing , Ringing\nbusy\nringing\nringing\nbusy\nbusy\nringing\ndiscussed with Manish taking care of sales \nlast year turnover- 112 cr\ncurrent year projection-150cr\nNob-manufacturing and trading of steel \nPitched for PID\nROI-13-155\nCx is interested to meet on wednesday in 2nd half to discuss in detail about product.\nmeeting will be scheduled once office location received on whatsapp",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56861429",
@@ -5044,7 +5200,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING\nringing\nnot getting positive response from cx side and told not required and also not share call back time , Call Back"
+      "notes": "RINGING\nringing\nnot getting positive response from cx side and told not required and also not share call back time , Call Back",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56862015",
@@ -5067,7 +5224,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx business electric manufacturing and trading bto- 2900cr cx projection 3500cr cx company rating bb+ and last 2nd year loss company ... discuss with lokesh sir and rahul sir . case and durable.cx bto dip 40cr last year"
+      "notes": "cx business electric manufacturing and trading bto- 2900cr cx projection 3500cr cx company rating bb+ and last 2nd year loss company ... discuss with lokesh sir and rahul sir . case and durable.cx bto dip 40cr last year",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56867861",
@@ -5090,7 +5248,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nRING\nRING\nRING\nring"
+      "notes": "ring\nRING\nRING\nRING\nring",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56869566",
@@ -5113,7 +5272,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring\nring\nRING\nRING\nring\nRING"
+      "notes": "ring\nring\nRING\nRING\nring\nRING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56872016",
@@ -5136,7 +5296,8 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": true,
-      "notes": "cx details share on email call back \nringg\n\nas discuss with reema ma'am For pid cx business Manufacturer of automotive and turned parts bto-35cr last year projection 50cr ..... cx interested for virtual meeting today after 2pm \nring \nRING \nRING \nRING"
+      "notes": "cx details share on email call back \nringg\n\nas discuss with reema ma'am For pid cx business Manufacturer of automotive and turned parts bto-35cr last year projection 50cr ..... cx interested for virtual meeting today after 2pm \nring \nRING \nRING \nRING",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56730280",
@@ -5159,7 +5320,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Discussed with Owner Mr. Lalit Arora regarding PID. The customer is a wholesaler of phones and computers, with an annual turnover of 58 Cr. The meeting is scheduled for Monday. Please call the customer before visiting."
+      "notes": "Discussed with Owner Mr. Lalit Arora regarding PID. The customer is a wholesaler of phones and computers, with an annual turnover of 58 Cr. The meeting is scheduled for Monday. Please call the customer before visiting.",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56876507",
@@ -5182,7 +5344,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "discussed with lokesh sir turnover dip A\ndocuments already checked with Anshul sir"
+      "notes": "discussed with lokesh sir turnover dip A\ndocuments already checked with Anshul sir",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56715205",
@@ -5205,7 +5368,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Discuss with personal mob client said he is govt DMRC contractor turn over 251-201 cr Dip he is listed on treds platform company rating BBB+ PID Supply chain finance going on with ABFL roi inform as per policy 13-15% need to low roi he will discuss with management call back tomorrow said send me mail company details clinet said call back after Diwali disc the call call back client said no need disc the call No need to loan disc the call"
+      "notes": "Discuss with personal mob client said he is govt DMRC contractor turn over 251-201 cr Dip he is listed on treds platform company rating BBB+ PID Supply chain finance going on with ABFL roi inform as per policy 13-15% need to low roi he will discuss with management call back tomorrow said send me mail company details clinet said call back after Diwali disc the call call back client said no need disc the call No need to loan disc the call",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56729627",
@@ -5228,7 +5392,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Call Back Tomorrow&nbsp; Ringing No Need cx said call me back after diwali&nbsp;\n\nLokesh ( Cust said he applied multiple times but rejected for PID due to Travel Company . Ni for BL"
+      "notes": "Call Back Tomorrow&nbsp; Ringing No Need cx said call me back after diwali&nbsp;\n\nLokesh ( Cust said he applied multiple times but rejected for PID due to Travel Company . Ni for BL",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56729787",
@@ -5251,7 +5416,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Wrong Number"
+      "notes": "Wrong Number",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56759022",
@@ -5274,7 +5440,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call disconnect by cx ringing already rejected&nbsp;\ndisqualify last 2 months Before login"
+      "notes": "call disconnect by cx ringing already rejected&nbsp;\ndisqualify last 2 months Before login",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56876510",
@@ -5297,7 +5464,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Meeting done . customer will share docs"
+      "notes": "Meeting done . customer will share docs",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56646141",
@@ -5320,7 +5488,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING, Call Back"
+      "notes": "RINGING, Call Back",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56724706",
@@ -5343,7 +5512,8 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "I had a discussion with Mr. Ram Kumar, General Manager at JRK Industries, regarding our Purchase Invoice Discounting facility. During the discussion, I explained the facility to the customer and pitched an indicative interest rate of 13%�15% per annum.  The customer shared the following business details:  Business Activity: Manufacturing of steel and iron products.  Previous Financial Year Turnover: ?46 crore.  Projected Turnover for the Current Financial Year: ?60 crore."
+      "notes": "I had a discussion with Mr. Ram Kumar, General Manager at JRK Industries, regarding our Purchase Invoice Discounting facility. During the discussion, I explained the facility to the customer and pitched an indicative interest rate of 13%�15% per annum.  The customer shared the following business details:  Business Activity: Manufacturing of steel and iron products.  Previous Financial Year Turnover: ?46 crore.  Projected Turnover for the Current Financial Year: ?60 crore.",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56772303",
@@ -5366,7 +5536,8 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not answered\nnot answered , No Need"
+      "notes": "not answered\nnot answered , No Need",
+      "turnover_bucket": "₹50 Cr – ₹100 Cr"
     },
     {
       "lead_id": "56876511",
@@ -5389,7 +5560,8 @@
       "is_ms_nov": false,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "In discussion with sales desk"
+      "notes": "In discussion with sales desk",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     },
     {
       "lead_id": "56876512",
@@ -5412,7 +5584,32 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not interested"
+      "notes": "not interested",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
+    },
+    {
+      "lead_id": "57358053",
+      "lsq_id": "57358053",
+      "name": "CHETAN BUDDHDEV .",
+      "phone": "9820640642",
+      "company": "Precise Chemipharma Pvt Ltd",
+      "turnover": "Above ₹25 Cr",
+      "channel": "EMAIL",
+      "campaign": "LSQ_25Cr_Industry_17thNov26",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "Interested to Meet",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": "Ring Discuss with personal Mob account manger Chetan he is Manufeture of Pharmasutical business turn over 46-44 cr DIP Due to war situation or tariff roi pf inform as per policy he will confirm monday meeting time",
+      "turnover_bucket": "₹25 Cr – ₹50 Cr"
     }
   ]
 }
