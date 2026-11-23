@@ -16,7 +16,28 @@
     "total_spend": "\u20b952,803",
     "total_cost": 52803,
     "cpl": "\u20b9267",
-    "cost_fl": "\u20b95,280"
+    "cost_fl": "\u20b95,280",
+    "kylas_stages": {
+      "Not Connected (New Lead Lending)": 49,
+      "Not Interested": 46,
+      "Meeting Scheduled": 31,
+      "Disqualified": 23,
+      "Meeting Done": 23,
+      "In Discussion (Lending)": 17,
+      "File Login on LoS": 2,
+      "Interested for KYC": 2,
+      "New Lead Lending": 2,
+      "Interested to Meet": 1,
+      "Future Lead": 1,
+      "Interested Followup": 1
+    },
+    "pid_vs_bl": {
+      "pid": 171,
+      "bl": 27,
+      "new_lead_total": 2,
+      "new_lead_pid": 2,
+      "new_lead_bl": 0
+    }
   },
   "this_month": {
     "month_label": "November 2026 (Current Month)",
