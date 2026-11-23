@@ -219,9 +219,9 @@
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
       <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
         <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total Outreach</div>
-        <div class="text-2xl font-black text-slate-900 mt-1" id="kpi-total-sent">435,664</div>
+        <div class="text-2xl font-black text-slate-900 mt-1" id="kpi-total-sent">903,849</div>
         <div class="text-xs text-slate-500 mt-1.5 font-medium">
-          <span class="text-emerald-600 font-bold" id="kpi-delivered">304,281</span> delivered (<span id="kpi-deliv-rate">69.8%</span>)
+          <span class="text-emerald-600 font-bold" id="kpi-delivered">362,199</span> delivered (<span id="kpi-deliv-rate">40.1%</span>)
         </div>
       </div>
 
@@ -283,9 +283,9 @@
 
       <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
         <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Cost &amp; Blended CPL</div>
-        <div class="text-2xl font-black text-amber-600 mt-1" id="kpi-spend">₹46,028</div>
+        <div class="text-2xl font-black text-amber-600 mt-1" id="kpi-spend">₹52,803</div>
         <div class="text-xs text-slate-600 mt-1.5 font-medium">
-          CPL: <strong class="text-slate-900" id="kpi-cpl">₹232</strong> • Cost/FL: <strong class="text-slate-900" id="kpi-cost-fl">₹4603</strong>
+          CPL: <strong class="text-slate-900" id="kpi-cpl">₹267</strong> • Cost/FL: <strong class="text-slate-900" id="kpi-cost-fl">₹5,280</strong>
         </div>
       </div>
     </div>
@@ -360,7 +360,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-6 gap-3">
         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
           <div class="text-xs font-semibold text-slate-500">1. Outreach Sent</div>
-          <div class="text-xl font-black text-slate-900 mt-1" id="funnel-sent">435,664</div>
+          <div class="text-xl font-black text-slate-900 mt-1" id="funnel-sent">903,849</div>
           <div class="text-xs text-slate-500 mt-2">100% Target Data</div>
           <div class="w-full bg-slate-200 h-2 rounded-full mt-2.5 overflow-hidden">
             <div class="bg-blue-600 h-full w-full"></div>
@@ -369,7 +369,7 @@
 
         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
           <div class="text-xs font-semibold text-slate-500">2. Delivered</div>
-          <div class="text-xl font-black text-slate-900 mt-1" id="funnel-deliv">304,281</div>
+          <div class="text-xl font-black text-slate-900 mt-1" id="funnel-deliv">362,199</div>
           <div class="text-xs text-emerald-700 font-bold mt-2" id="funnel-deliv-rate">69.8% Delivery</div>
           <div class="w-full bg-slate-200 h-2 rounded-full mt-2.5 overflow-hidden">
             <div class="bg-blue-500 h-full" style="width: 69.8%"></div>
@@ -1910,6 +1910,27 @@
       showToast("🔄 Filters reset to all leads!");
     }
 
+    const marketingSpendMatrix = {
+      'NOV': {
+        'ALL': { cost: 42819, sent: 815235, deliv: 313867 },
+        'EMAIL': { cost: 22239, sent: 422484, deliv: 222391 },
+        'SMS': { cost: 20580, sent: 329751, deliv: 91476 },
+        'WHATSAPP': { cost: 0, sent: 63000, deliv: 0 }
+      },
+      'OCT': {
+        'ALL': { cost: 9984, sent: 88614, deliv: 48332 },
+        'EMAIL': { cost: 758, sent: 7578, deliv: 7578 },
+        'SMS': { cost: 7584, sent: 77461, deliv: 39112 },
+        'WHATSAPP': { cost: 1642, sent: 3575, deliv: 1642 }
+      },
+      'ALL': {
+        'ALL': { cost: 52803, sent: 903849, deliv: 362199 },
+        'EMAIL': { cost: 22997, sent: 430062, deliv: 229969 },
+        'SMS': { cost: 28164, sent: 407212, deliv: 130588 },
+        'WHATSAPP': { cost: 1642, sent: 66575, deliv: 1642 }
+      }
+    };
+
     function updateDynamicKpis(filtered) {
       const total = filtered.length;
       const ms = filtered.filter(l => l.ms).length;
@@ -1933,6 +1954,29 @@
       if (document.getElementById('kpi-ms-nov')) document.getElementById('kpi-ms-nov').innerText = msNov;
       if (document.getElementById('kpi-md-nov')) document.getElementById('kpi-md-nov').innerText = mdNov;
       if (document.getElementById('kpi-fl-nov')) document.getElementById('kpi-fl-nov').innerText = flNov;
+
+      // Dynamic Cost, Outreach & CPL calculation based on active Month and Channel
+      const mKey = (currentFilters.month === 'NOV' || currentFilters.month === 'OCT') ? currentFilters.month : 'ALL';
+      const cKey = (currentFilters.channel === 'EMAIL' || currentFilters.channel === 'SMS' || currentFilters.channel === 'WHATSAPP') ? currentFilters.channel : 'ALL';
+      const mStats = (marketingSpendMatrix[mKey] && marketingSpendMatrix[mKey][cKey]) ? marketingSpendMatrix[mKey][cKey] : marketingSpendMatrix['ALL']['ALL'];
+
+      const dynCost = mStats.cost;
+      const dynSent = mStats.sent;
+      const dynDeliv = mStats.deliv;
+      const delivRate = dynSent > 0 ? ((dynDeliv / dynSent) * 100).toFixed(1) + '%' : '0%';
+      const dynCpl = total > 0 ? '₹' + Math.round(dynCost / total).toLocaleString() : '—';
+      const dynCostFl = fl > 0 ? '₹' + Math.round(dynCost / fl).toLocaleString() : '—';
+
+      if (document.getElementById('kpi-spend')) document.getElementById('kpi-spend').innerText = '₹' + dynCost.toLocaleString();
+      if (document.getElementById('kpi-cpl')) document.getElementById('kpi-cpl').innerText = dynCpl;
+      if (document.getElementById('kpi-cost-fl')) document.getElementById('kpi-cost-fl').innerText = dynCostFl;
+
+      if (document.getElementById('kpi-total-sent')) document.getElementById('kpi-total-sent').innerText = dynSent.toLocaleString();
+      if (document.getElementById('kpi-delivered')) document.getElementById('kpi-delivered').innerText = dynDeliv.toLocaleString();
+      if (document.getElementById('kpi-deliv-rate')) document.getElementById('kpi-deliv-rate').innerText = delivRate;
+
+      if (document.getElementById('funnel-sent')) document.getElementById('funnel-sent').innerText = dynSent.toLocaleString();
+      if (document.getElementById('funnel-deliv')) document.getElementById('funnel-deliv').innerText = dynDeliv.toLocaleString();
     }
 
     // Render Leads by Stage Board
