@@ -511,7 +511,7 @@
         "cost": 1767,
         "leads": 24,
         "ms": 7,
-        "md": 6,
+        "md": 7,
         "fl": 0,
         "template": "\"Hi [Name],\nCredFlow is an RBI-registered NBFC that funds vendor payments for growing businesses.\n\nHow it works:\n1. Shar..."
       },
@@ -526,7 +526,7 @@
         "cost": 3069,
         "leads": 12,
         "ms": 3,
-        "md": 2,
+        "md": 3,
         "fl": 1,
         "template": "\"Dear {Company Name} \n\nDid you know your customer/vendor has availed working capital against purchase bill through CredF..."
       },
@@ -601,8 +601,8 @@
         "sent": 43670,
         "delivered": 21012,
         "cost": 4728,
-        "leads": 16,
-        "ms": 6,
+        "leads": 17,
+        "ms": 7,
         "md": 5,
         "fl": 1,
         "template": "\"Dear {Company Name} \n\nDid you know your customer/vendor has availed working capital against purchase bill through CredF..."
@@ -772,7 +772,7 @@
         "sent": 9161,
         "delivered": 4344,
         "cost": 1418,
-        "leads": 8,
+        "leads": 2,
         "ms": 0,
         "md": 0,
         "fl": 0,
