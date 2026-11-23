@@ -689,6 +689,11 @@
 
         <div class="flex items-center gap-3 bg-white/10 p-3 rounded-xl border border-white/15 backdrop-blur-xs">
           <div class="text-right">
+            <div class="text-[10px] uppercase font-bold text-slate-300">This Month Cost</div>
+            <div class="text-xl font-black text-amber-300">₹42,819</div>
+          </div>
+          <div class="h-8 w-px bg-white/20"></div>
+          <div class="text-right">
             <div class="text-[10px] uppercase font-bold text-slate-300">MoM Inbound Growth</div>
             <div class="text-xl font-black text-emerald-400">+258.1%</div>
           </div>
@@ -702,7 +707,7 @@
     </div>
 
     <!-- MoM Executive Cards Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
       
       <!-- Card 1: Leads -->
       <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden">
@@ -756,6 +761,19 @@
         </div>
       </div>
 
+      <!-- Card 5: Total Cost (This Month) -->
+      <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm relative overflow-hidden bg-gradient-to-b from-amber-50/30 to-white">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-amber-900 uppercase">Total Cost (This Month)</span>
+          <span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-amber-200 text-amber-900">CPL: ₹276</span>
+        </div>
+        <div class="text-3xl font-black text-amber-600 mt-2">₹42,819</div>
+        <div class="mt-2 text-xs text-slate-500 flex items-center justify-between pt-2 border-t border-amber-100 font-medium">
+          <span>Oct Baseline: <strong>₹9,984</strong></span>
+          <span class="text-slate-700 font-bold">Cost/FL: ₹6,117</span>
+        </div>
+      </div>
+
     </div>
 
     <!-- November Weekly Progress Table -->
@@ -790,14 +808,14 @@
             <tr class="hover:bg-slate-50">
               <td class="p-3 font-bold text-slate-900">Week 1 (1st – 7th Nov)</td>
               <td class="p-3 text-slate-600 font-medium">Bangalore Network &amp; SaaS Customer Segment</td>
-              <td class="p-3 text-right font-medium text-slate-800">638,579</td>
-              <td class="p-3 text-right text-slate-600 font-medium">99,919</td>
-              <td class="p-3 text-right font-bold text-blue-600">15.6%</td>
-              <td class="p-3 text-right font-black text-blue-600">81</td>
-              <td class="p-3 text-right font-bold text-purple-700">21</td>
-              <td class="p-3 text-right font-black text-emerald-600">3</td>
-              <td class="p-3 text-right font-bold text-slate-900">₹18,542</td>
-              <td class="p-3 text-right font-bold text-emerald-700">₹229</td>
+              <td class="p-3 text-right font-medium text-slate-800">36,800</td>
+              <td class="p-3 text-right text-slate-600 font-medium">31,266</td>
+              <td class="p-3 text-right font-bold text-emerald-600">85.0%</td>
+              <td class="p-3 text-right font-black text-blue-600">40</td>
+              <td class="p-3 text-right font-bold text-purple-700">10</td>
+              <td class="p-3 text-right font-black text-emerald-600">1</td>
+              <td class="p-3 text-right font-bold text-slate-900">₹3,730</td>
+              <td class="p-3 text-right font-bold text-emerald-700">₹93</td>
             </tr>
             <tr class="hover:bg-slate-50 bg-emerald-50/20">
               <td class="p-3 font-bold text-slate-900">Week 2 (8th – 14th Nov) ⭐</td>
@@ -805,11 +823,11 @@
               <td class="p-3 text-right font-medium text-slate-800">146,447</td>
               <td class="p-3 text-right text-slate-600 font-medium">128,706</td>
               <td class="p-3 text-right font-bold text-emerald-700">87.9%</td>
-              <td class="p-3 text-right font-black text-blue-600">63</td>
+              <td class="p-3 text-right font-black text-blue-600">65</td>
               <td class="p-3 text-right font-bold text-purple-700">23</td>
               <td class="p-3 text-right font-black text-emerald-600">5</td>
               <td class="p-3 text-right font-bold text-slate-900">₹14,770</td>
-              <td class="p-3 text-right font-bold text-emerald-700">₹234</td>
+              <td class="p-3 text-right font-bold text-emerald-700">₹227</td>
             </tr>
             <tr class="hover:bg-slate-50">
               <td class="p-3 font-bold text-slate-900">Week 3 (15th – 21st Nov)</td>
@@ -818,7 +836,7 @@
               <td class="p-3 text-right text-slate-600 font-medium">153,895</td>
               <td class="p-3 text-right font-bold text-blue-600">31.5%</td>
               <td class="p-3 text-right font-black text-blue-600">50</td>
-              <td class="p-3 text-right font-bold text-purple-700">12</td>
+              <td class="p-3 text-right font-bold text-purple-700">14</td>
               <td class="p-3 text-right font-black text-emerald-600">1</td>
               <td class="p-3 text-right font-bold text-slate-900">₹24,319</td>
               <td class="p-3 text-right font-bold text-amber-700">₹486</td>
@@ -832,10 +850,23 @@
               <td class="p-3 text-right">—</td>
               <td class="p-3 text-right">—</td>
               <td class="p-3 text-right">—</td>
-              <td class="p-3 text-right">Planned</td>
+              <td class="p-3 text-right font-medium text-slate-500">Planned</td>
               <td class="p-3 text-right">—</td>
             </tr>
           </tbody>
+          <tfoot>
+            <tr class="bg-slate-100 font-black text-slate-900 border-t-2 border-slate-300">
+              <td class="p-3" colspan="2">November Total (Actual MTD)</td>
+              <td class="p-3 text-right">671,435</td>
+              <td class="p-3 text-right">313,867</td>
+              <td class="p-3 text-right font-bold text-blue-600">46.7%</td>
+              <td class="p-3 text-right font-black text-blue-600">155</td>
+              <td class="p-3 text-right font-bold text-purple-700">47</td>
+              <td class="p-3 text-right font-black text-emerald-600">7</td>
+              <td class="p-3 text-right font-black text-amber-600">₹42,819</td>
+              <td class="p-3 text-right font-bold text-emerald-700">₹276</td>
+            </tr>
+          </tfoot>
         </table>
       </div>
     </div>
