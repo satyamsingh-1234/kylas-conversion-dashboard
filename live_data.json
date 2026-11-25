@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 07:04:29 PM",
-  "updated_at_iso": "2026-11-25T19:04:29.164973+05:30",
+  "timestamp": "25-Nov-2026 07:19:08 PM",
+  "updated_at_iso": "2026-11-25T19:19:08.483260+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -2024,7 +2024,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "TURNOVER - 5 CR AND CIBIL ISSUE call forwarded"
+      "notes": "TURNOVER - 5 CR AND CIBIL ISSUE call forwarded RINGING"
     },
     {
       "lead_id": "56544576",
@@ -3992,7 +3992,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring ring ring ringing...no response"
+      "notes": "ring ring ring ringing...no response CALL FORWARDED"
     },
     {
       "lead_id": "56671501",
@@ -5504,7 +5504,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy busy switched off busy busy busy , Ringing , Ringing busy ringing ringing busy busy ringing discussed with Manish taking care of sales  last year turnover- 112 cr current year projection-150cr Nob-manufacturing and trading of steel  Pitched for PID ROI-13-155 Cx is interested to meet on wednesday in 2nd half to discuss in detail about product. meeting will be scheduled once office location received on whatsapp busy busy"
+      "notes": "busy busy switched off busy busy busy , Ringing , Ringing busy ringing ringing busy busy ringing discussed with Manish taking care of sales  last year turnover- 112 cr current year projection-150cr Nob-manufacturing and trading of steel  Pitched for PID ROI-13-155 Cx is interested to meet on wednesday in 2nd half to discuss in detail about product. meeting will be scheduled once office location received on whatsapp busy busy BUSY"
     },
     {
       "lead_id": "56861429",
