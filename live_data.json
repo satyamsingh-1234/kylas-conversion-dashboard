@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 01:49:05 PM",
-  "updated_at_iso": "2026-11-25T13:49:05.792149+05:30",
+  "timestamp": "25-Nov-2026 02:04:06 PM",
+  "updated_at_iso": "2026-11-25T14:04:06.466462+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -2600,7 +2600,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy RING ring ring ring"
+      "notes": "busy RING ring ring ring, ring"
     },
     {
       "lead_id": "56639907",
@@ -2864,7 +2864,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring<br>ring<br>ring, ring, ring"
+      "notes": "ring<br>ring<br>ring, ring, ring, ring"
     },
     {
       "lead_id": "56769664",
@@ -4376,7 +4376,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING, ring, RING, ring"
+      "notes": "RING, ring, RING, ring, ring"
     },
     {
       "lead_id": "56984199",
@@ -5288,7 +5288,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing call forwarded Call ringing.. call ended call forwarded busy , Not Reachable ring, ring, call back"
+      "notes": "ringing call forwarded Call ringing.. call ended call forwarded busy , Not Reachable ring, ring, call back, ring"
     },
     {
       "lead_id": "56493880",
@@ -5576,7 +5576,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring RING RING RING ring, ring"
+      "notes": "ring RING RING RING ring, ring, ring"
     },
     {
       "lead_id": "56869566",
