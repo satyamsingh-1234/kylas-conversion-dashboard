@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 12:34:12 PM",
-  "updated_at_iso": "2026-11-25T12:34:12.384336+05:30",
+  "timestamp": "25-Nov-2026 12:49:10 PM",
+  "updated_at_iso": "2026-11-25T12:49:10.348938+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -1016,7 +1016,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring<br>client said turn over 40 cr interior design contractor suggest mas finance said he will confirm<br>no busy&nbsp;<br>no busy&nbsp;<br>No busy&nbsp;<br>No busy&nbsp;<br>Ring busy busy busy on another call busy busy busy busy busy"
+      "notes": "ring<br>client said turn over 40 cr interior design contractor suggest mas finance said he will confirm<br>no busy&nbsp;<br>no busy&nbsp;<br>No busy&nbsp;<br>No busy&nbsp;<br>Ring busy busy busy on another call busy busy busy busy busy direct call-busy"
     },
     {
       "lead_id": "56680024",
@@ -1136,7 +1136,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call forwarded call forwarded busy ringing direct call-call forwarded call forwarded call forwarded call forwarded"
+      "notes": "call forwarded call forwarded busy ringing direct call-call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded"
     },
     {
       "lead_id": "57235009",
@@ -2480,7 +2480,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "He was looking for PID ... due to petrol pump business we cant provide him PID .....&nbsp;<br><br>ROI concern for DLOD , Term Loan&nbsp;<br>ring&nbsp;<br><br> , ringing , Busy , Ringing"
+      "notes": "He was looking for PID ... due to petrol pump business we cant provide him PID .....&nbsp;<br><br>ROI concern for DLOD , Term Loan&nbsp;<br>ring&nbsp;<br><br> , ringing , Busy , Ringing , Ringing"
     },
     {
       "lead_id": "56715928",
@@ -4616,7 +4616,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing call received and disconnected by cx during introductions ringing ringing not reachable call received and disconnected by cx during introduction"
+      "notes": "ringing call received and disconnected by cx during introductions ringing ringing not reachable call received and disconnected by cx during introduction call forwarded"
     },
     {
       "lead_id": "57200143",
@@ -4640,7 +4640,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable"
+      "notes": "not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable"
     },
     {
       "lead_id": "56402182",
