@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 01:34:06 PM",
-  "updated_at_iso": "2026-11-25T13:34:06.569518+05:30",
+  "timestamp": "25-Nov-2026 01:49:05 PM",
+  "updated_at_iso": "2026-11-25T13:49:05.792149+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -2768,7 +2768,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp; ring, ring ring"
+      "notes": "ringing&nbsp; ring, ring, ring  ring"
     },
     {
       "lead_id": "56696276",
@@ -2816,7 +2816,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING ring ring, ring"
+      "notes": "RING ring ring, ring, ring"
     },
     {
       "lead_id": "56730017",
@@ -3440,7 +3440,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing&nbsp;<br>ringing, ring , ring, ring"
+      "notes": "ringing&nbsp;<br>ringing, ring , ring, ring, ring"
     },
     {
       "lead_id": "56630896",
@@ -4208,7 +4208,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back after sometime, RING, ring, ring, ring, ring"
+      "notes": "call back after sometime, RING, ring, ring, ring, ring, not reach"
     },
     {
       "lead_id": "56707388",
@@ -5048,7 +5048,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring RING RING ring, ring, ring"
+      "notes": "ring RING RING ring, ring, ring, ring"
     },
     {
       "lead_id": "56876516",
@@ -5120,7 +5120,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back call back monday cx leave NOT REACH cx monday office jayega fir baat krega ring, ring as discuss with tejas bhagat finance head cx busienss mca services electric and plumbing etc bto-45 cr cx interested for pay later cx discuss before owner after meeting time confirm.cx business operate pune."
+      "notes": "call back call back monday cx leave NOT REACH cx monday office jayega fir baat krega ring, ring as discuss with tejas bhagat finance head cx busienss mca services electric and plumbing etc bto-45 cr cx interested for pay later cx discuss before owner after meeting time confirm.cx business operate pune. , ring"
     },
     {
       "lead_id": "56876519",
@@ -5168,7 +5168,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING ring RING ring RING, ring"
+      "notes": "RING ring RING ring RING, ring, ring"
     },
     {
       "lead_id": "56876521",
@@ -5600,7 +5600,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring ring RING RING ring RING, ring"
+      "notes": "ring ring RING RING ring RING, ring, ring"
     },
     {
       "lead_id": "56872016",
