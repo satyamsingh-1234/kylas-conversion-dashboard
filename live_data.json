@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 04:34:05 PM",
-  "updated_at_iso": "2026-11-25T16:34:05.406557+05:30",
+  "timestamp": "25-Nov-2026 04:49:06 PM",
+  "updated_at_iso": "2026-11-25T16:49:06.537589+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -9,24 +9,24 @@
     "inbound_leads": 229,
     "ms": 70,
     "md": 42,
-    "fl": 11,
+    "fl": 12,
     "meeting_scheduled": 70,
     "meeting_done": 42,
-    "file_login": 11,
+    "file_login": 12,
     "total_spend": "₹46,028",
     "total_cost": 46028,
     "cpl": "₹201",
     "cost_ms": "₹658",
-    "cost_fl": "₹4184",
+    "cost_fl": "₹3836",
     "kylas_stages": {
       "In Discussion (Lending)": 18,
       "Not Interested": 52,
       "Meeting Scheduled": 33,
-      "Not Connected (New Lead Lending)": 59,
+      "Not Connected (New Lead Lending)": 60,
       "Disqualified": 26,
       "Meeting Done": 24,
       "Interested to Meet": 1,
-      "New Lead Lending": 6,
+      "New Lead Lending": 5,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
@@ -36,8 +36,8 @@
     "pid_vs_bl": {
       "pid": 184,
       "bl": 45,
-      "new_lead_total": 6,
-      "new_lead_pid": 4,
+      "new_lead_total": 5,
+      "new_lead_pid": 3,
       "new_lead_bl": 2
     }
   },
@@ -50,11 +50,11 @@
       "leads": 186,
       "ms": 52,
       "md": 31,
-      "fl": 9,
+      "fl": 10,
       "cost": 36044,
       "cpl": 194,
       "deliv_rate": 68.4,
-      "cost_fl": 4005
+      "cost_fl": 3604
     },
     "oct": {
       "sent": 88614,
@@ -79,7 +79,7 @@
           "leads": 140,
           "ms": 45,
           "md": 28,
-          "fl": 8
+          "fl": 9
         },
         "SMS": {
           "leads": 46,
@@ -99,7 +99,7 @@
           "leads": 150,
           "ms": 48,
           "md": 30,
-          "fl": 8
+          "fl": 9
         },
         "SMS": {
           "leads": 79,
@@ -153,7 +153,7 @@
         "leads": 20,
         "ms": 8,
         "md": 6,
-        "fl": 2,
+        "fl": 3,
         "channel": "EMAIL",
         "date": "16thNov",
         "msg_num": "Live",
@@ -3409,13 +3409,13 @@
       "stage": "Meeting Done",
       "meet_time": "2026-11-18 13:30:00",
       "meet_done": "2026-11-18 17:30:00",
-      "file_login": "",
+      "file_login": "2026-11-24 00:00:00",
       "ms": true,
       "md": true,
-      "fl": false,
+      "fl": true,
       "is_ms_nov": true,
       "is_md_nov": true,
-      "is_fl_nov": false,
+      "is_fl_nov": true,
       "notes": "ringing&nbsp; 11/11/26 busy ring, ring,  As discuss with owner husband for pid cx business edible oil distributor bto-25cr last year cx recent octb bto-40cr+ and projection 50cr above cx interested for meeting tomorrow 12 pm as per gst location"
     },
     {
@@ -3526,7 +3526,7 @@
       "campaign": "LSQ_Final_Workable_25Cr_16thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -3536,7 +3536,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "ringing direct call- ringing"
     },
     {
       "lead_id": "56697225",
