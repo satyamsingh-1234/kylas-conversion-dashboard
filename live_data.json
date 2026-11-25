@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 06:19:05 PM",
-  "updated_at_iso": "2026-11-25T18:19:05.768290+05:30",
+  "timestamp": "25-Nov-2026 07:04:29 PM",
+  "updated_at_iso": "2026-11-25T19:04:29.164973+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -19,11 +19,11 @@
     "cost_ms": "₹648",
     "cost_fl": "₹3836",
     "kylas_stages": {
-      "In Discussion (Lending)": 18,
+      "In Discussion (Lending)": 17,
       "Not Interested": 53,
       "Meeting Scheduled": 34,
       "Not Connected (New Lead Lending)": 59,
-      "Disqualified": 26,
+      "Disqualified": 27,
       "Meeting Done": 24,
       "Interested to Meet": 1,
       "New Lead Lending": 4,
@@ -1016,7 +1016,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring<br>client said turn over 40 cr interior design contractor suggest mas finance said he will confirm<br>no busy&nbsp;<br>no busy&nbsp;<br>No busy&nbsp;<br>No busy&nbsp;<br>Ring busy busy busy on another call busy busy busy busy busy direct call-busy"
+      "notes": "ring<br>client said turn over 40 cr interior design contractor suggest mas finance said he will confirm<br>no busy&nbsp;<br>no busy&nbsp;<br>No busy&nbsp;<br>No busy&nbsp;<br>Ring busy busy busy on another call busy busy busy busy busy direct call-busy ringing"
     },
     {
       "lead_id": "56680024",
@@ -1582,7 +1582,7 @@
       "campaign": "LSQ_BL_10Cr_24Cr_Workable_16thNov26",
       "is_pid": false,
       "product": "BL (10-24 Cr)",
-      "stage": "In Discussion (Lending)",
+      "stage": "Disqualified",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -1592,7 +1592,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx is travelling now will connect tomorrow after 10am ringing ringing cx told will do a call back aftersometime call forwarded 31 MARCH 24-36 CR 31 MARCH 2026-67 CR CURRENT YEAR PROJECTION-80 CR NOB-GOVT.CONTRACTOR PITCHED FOR PID ROI-13-15% CX IS INTERESTED TO MEET ON THURSDAY BUT IN THOR DEVIATION SHOW WILL DISCUSS WITH LOKESH SIR THEN ONLY SCHEDULED MEETING 670 CRIF"
+      "notes": "cx is travelling now will connect tomorrow after 10am ringing ringing cx told will do a call back aftersometime call forwarded 31 MARCH 24-36 CR 31 MARCH 2026-67 CR CURRENT YEAR PROJECTION-80 CR NOB-GOVT.CONTRACTOR PITCHED FOR PID ROI-13-15% CX IS INTERESTED TO MEET ON THURSDAY BUT IN THOR DEVIATION SHOW WILL DISCUSS WITH LOKESH SIR THEN ONLY SCHEDULED MEETING 670 CRIF same discussed with lokesh sir and said not scheduled meeting"
     },
     {
       "lead_id": "56466050",
@@ -2144,7 +2144,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not reachable"
+      "notes": "not reachable not reachable"
     },
     {
       "lead_id": "56555221",
@@ -2216,7 +2216,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "switched off"
+      "notes": "switched off ringing"
     },
     {
       "lead_id": "56613641",
@@ -2648,7 +2648,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring<br><br> discussed with CFO  last year turnover- 45 cr current year projection- same nob- construction of building/realestate//consulting firm//building material purchase from distributor pitched for PID ROI-13-15% LET ME CHECK WHETHER WE CAN PROCESS OR NOT busy ringing busy ringing ringing RINGING"
+      "notes": "ring<br><br> discussed with CFO  last year turnover- 45 cr current year projection- same nob- construction of building/realestate//consulting firm//building material purchase from distributor pitched for PID ROI-13-15% LET ME CHECK WHETHER WE CAN PROCESS OR NOT busy ringing busy ringing ringing RINGING ringing"
     },
     {
       "lead_id": "56664412",
@@ -3560,7 +3560,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing call forwarded call forwarded call forwarded call forwarded call forwarded"
+      "notes": "ringing call forwarded call forwarded call forwarded call forwarded call forwarded ringing"
     },
     {
       "lead_id": "56715697",
@@ -3824,7 +3824,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CALL RECEIVED AND DISCONNECTED BY CX DURING INTRODUCTION"
+      "notes": "CALL RECEIVED AND DISCONNECTED BY CX DURING INTRODUCTION not reachable"
     },
     {
       "lead_id": "56673147",
@@ -4040,7 +4040,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call received and disconnected by cx during introduction"
+      "notes": "call received and disconnected by cx during introduction call received and disconnected by cx"
     },
     {
       "lead_id": "56770512",
@@ -4064,7 +4064,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call ended call ended"
+      "notes": "call ended call ended call forwarded"
     },
     {
       "lead_id": "57464083",
@@ -4184,7 +4184,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy busy, Busy busy , Busy ringing ringing busy ringing busy busy"
+      "notes": "busy busy, Busy busy , Busy ringing ringing busy ringing busy busy RINGING"
     },
     {
       "lead_id": "56707297",
@@ -4808,7 +4808,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th Busy , Call Disconnect call forwarded busy call forwarded direct call - call forwarded call forwarded call forwarded"
+      "notes": "cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th Busy , Call Disconnect call forwarded busy call forwarded direct call - call forwarded call forwarded call forwarded RINGING"
     },
     {
       "lead_id": "56705029",
@@ -4832,7 +4832,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing not reachable ringing busy CX TOLD I AM IN GOLF COURSE AND NOT SHARE CALL BACK TIME AND DISCONNECTED THE CALL busy ,Ringing busy ringing ringing ringing direct call- cx is playing golf and disconnected the call ringing busy on another call"
+      "notes": "ringing not reachable ringing busy CX TOLD I AM IN GOLF COURSE AND NOT SHARE CALL BACK TIME AND DISCONNECTED THE CALL busy ,Ringing busy ringing ringing ringing direct call- cx is playing golf and disconnected the call ringing busy on another call RINGING"
     },
     {
       "lead_id": "56708804",
@@ -5072,7 +5072,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing ringing ringing ringing busy busy , Busy busy not reachable busy busy RINGING"
+      "notes": "ringing ringing ringing ringing busy busy , Busy busy not reachable busy busy RINGING ringing"
     },
     {
       "lead_id": "56876517",
