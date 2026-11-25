@@ -1,6 +1,6 @@
 {
-  "timestamp": "25-Nov-2026 05:19:08 PM",
-  "updated_at_iso": "2026-11-25T17:19:08.168634+05:30",
+  "timestamp": "25-Nov-2026 06:16:25 PM",
+  "updated_at_iso": "2026-11-25T18:16:25.174664+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -20,13 +20,13 @@
     "cost_fl": "₹3836",
     "kylas_stages": {
       "In Discussion (Lending)": 18,
-      "Not Interested": 52,
+      "Not Interested": 53,
       "Meeting Scheduled": 34,
       "Not Connected (New Lead Lending)": 59,
       "Disqualified": 26,
       "Meeting Done": 24,
       "Interested to Meet": 1,
-      "New Lead Lending": 5,
+      "New Lead Lending": 4,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
@@ -36,8 +36,8 @@
     "pid_vs_bl": {
       "pid": 184,
       "bl": 45,
-      "new_lead_total": 5,
-      "new_lead_pid": 3,
+      "new_lead_total": 4,
+      "new_lead_pid": 2,
       "new_lead_bl": 2
     }
   },
@@ -1136,7 +1136,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call forwarded call forwarded busy ringing direct call-call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded"
+      "notes": "call forwarded call forwarded busy ringing direct call-call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded"
     },
     {
       "lead_id": "57235009",
@@ -1184,7 +1184,7 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ring Discuss with personal Mob account manger Chetan he is Manufeture of Pharmasutical business turn over 46-44 cr DIP Due to war situation or tariff roi pf inform as per policy he will confirm monday meeting time ring client said he will confirm dirctor call back day after tomorrow cx still not discuss with director and want to confirm tomorrow whether do a meeting or not. RINGING DIRECT CALL- RINGING"
+      "notes": "Ring Discuss with personal Mob account manger Chetan he is Manufeture of Pharmasutical business turn over 46-44 cr DIP Due to war situation or tariff roi pf inform as per policy he will confirm monday meeting time ring client said he will confirm dirctor call back day after tomorrow cx still not discuss with director and want to confirm tomorrow whether do a meeting or not. RINGING DIRECT CALL- RINGING ringing"
     },
     {
       "lead_id": "56632599",
@@ -3574,7 +3574,7 @@
       "campaign": "LSQ_Final_Workable_25Cr_16thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "Not Connected (New Lead Lending)",
+      "stage": "Not Interested",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -3584,7 +3584,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing<br>ringing<br>ringing not reachable Ring Ring Ringing No busy"
+      "notes": "ringing<br>ringing<br>ringing not reachable Ring Ring Ringing No busy client said anaj ka buisness hai dod ke liye not interested hai roi jayda hai"
     },
     {
       "lead_id": "56720504",
@@ -4126,7 +4126,7 @@
       "campaign": "LSQ_Final_Workable_25Cr_24thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -4136,7 +4136,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "busy"
     },
     {
       "lead_id": "56423000",
@@ -4616,7 +4616,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing call received and disconnected by cx during introductions ringing ringing not reachable call received and disconnected by cx during introduction call forwarded"
+      "notes": "ringing call received and disconnected by cx during introductions ringing ringing not reachable call received and disconnected by cx during introduction call forwarded call received and disconnected by cx during introductions"
     },
     {
       "lead_id": "57200143",
@@ -4640,7 +4640,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable"
+      "notes": "not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable"
     },
     {
       "lead_id": "56402182",
