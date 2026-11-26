@@ -1,6 +1,6 @@
 {
-  "timestamp": "26-Nov-2026 04:49:08 PM",
-  "updated_at_iso": "2026-11-26T16:49:08.268579+05:30",
+  "timestamp": "26-Nov-2026 05:28:13 PM",
+  "updated_at_iso": "2026-11-26T17:28:13.932944+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -24,13 +24,14 @@
       "Meeting Scheduled": 34,
       "Not Connected (New Lead Lending)": 59,
       "Disqualified": 27,
-      "Meeting Done": 24,
+      "Meeting Done": 23,
       "Interested to Meet": 1,
       "New Lead Lending": 4,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
       "Interested Followup": 1,
+      "File Login on LoS Pending": 1,
       "Future Lead": 2
     },
     "pid_vs_bl": {
@@ -4414,7 +4415,7 @@
       "campaign": "LSQ_Mumbai_25Cr_10thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "Meeting Done",
+      "stage": "File Login on LoS Pending",
       "meet_time": "2026-11-17 12:00:00",
       "meet_done": "2026-11-17 17:30:00",
       "file_login": "",
