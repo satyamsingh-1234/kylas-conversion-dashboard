@@ -1,12 +1,12 @@
 {
-  "timestamp": "27-Nov-2026 11:04:07 AM",
-  "updated_at_iso": "2026-11-27T11:04:07.700923+05:30",
+  "timestamp": "27-Nov-2026 11:19:07 AM",
+  "updated_at_iso": "2026-11-27T11:19:07.018653+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
     "delivered": "352,646",
     "delivery_rate": "66.1%",
-    "inbound_leads": 229,
+    "inbound_leads": 230,
     "ms": 71,
     "md": 42,
     "fl": 12,
@@ -15,7 +15,7 @@
     "file_login": 12,
     "total_spend": "₹46,028",
     "total_cost": 46028,
-    "cpl": "₹201",
+    "cpl": "₹200",
     "cost_ms": "₹648",
     "cost_fl": "₹3836",
     "kylas_stages": {
@@ -26,7 +26,7 @@
       "Disqualified": 27,
       "Meeting Done": 23,
       "Interested to Meet": 1,
-      "New Lead Lending": 4,
+      "New Lead Lending": 5,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
@@ -35,10 +35,10 @@
       "Future Lead": 2
     },
     "pid_vs_bl": {
-      "pid": 184,
+      "pid": 185,
       "bl": 45,
-      "new_lead_total": 4,
-      "new_lead_pid": 2,
+      "new_lead_total": 5,
+      "new_lead_pid": 3,
       "new_lead_bl": 2
     }
   },
@@ -48,12 +48,12 @@
     "nov": {
       "sent": 445115,
       "deliv": 304314,
-      "leads": 186,
+      "leads": 187,
       "ms": 53,
       "md": 31,
       "fl": 10,
       "cost": 36044,
-      "cpl": 194,
+      "cpl": 193,
       "deliv_rate": 68.4,
       "cost_fl": 3604
     },
@@ -69,7 +69,7 @@
       "deliv_rate": 54.5
     },
     "growth": {
-      "leads": "+332.6%",
+      "leads": "+334.9%",
       "ms": "+194.1%",
       "fl": "+166.7%",
       "deliv": "+529.6%"
@@ -83,7 +83,7 @@
           "fl": 9
         },
         "SMS": {
-          "leads": 46,
+          "leads": 47,
           "ms": 8,
           "md": 3,
           "fl": 1
@@ -103,7 +103,7 @@
           "fl": 9
         },
         "SMS": {
-          "leads": 79,
+          "leads": 80,
           "ms": 23,
           "md": 12,
           "fl": 3
@@ -310,6 +310,22 @@
         "seg_name": "LSQ_Mumbai_25Cr_13thNov26"
       },
       {
+        "camp_name": "LSQ_25Cr_Industry_19thNov26",
+        "leads": 4,
+        "ms": 0,
+        "md": 0,
+        "fl": 0,
+        "channel": "SMS",
+        "date": "19thNov26",
+        "msg_num": "Live",
+        "completed": "Yes",
+        "sent": 25000,
+        "delivered": 20000,
+        "cost": 2500,
+        "template": "",
+        "seg_name": "LSQ_25Cr_Industry_19thNov26"
+      },
+      {
         "camp_name": "LSQ_Mumbai_25Cr_17thNov26",
         "leads": 4,
         "ms": 1,
@@ -324,22 +340,6 @@
         "cost": 2500,
         "template": "",
         "seg_name": "LSQ_Mumbai_25Cr_17thNov26"
-      },
-      {
-        "camp_name": "LSQ_25Cr_Industry_19thNov26",
-        "leads": 3,
-        "ms": 0,
-        "md": 0,
-        "fl": 0,
-        "channel": "SMS",
-        "date": "19thNov26",
-        "msg_num": "Live",
-        "completed": "Yes",
-        "sent": 25000,
-        "delivered": 20000,
-        "cost": 2500,
-        "template": "",
-        "seg_name": "LSQ_25Cr_Industry_19thNov26"
       },
       {
         "camp_name": "LSQ_BL_10Cr_24Cr_Workable_20thNov26",
@@ -395,7 +395,7 @@
     "DB_LoanReference_14thOct26": 21,
     "DB_LoanReference_23rdOct26": 3,
     "LSQ_25Cr_Industry_17thNov26": 8,
-    "LSQ_25Cr_Industry_19thNov26": 3,
+    "LSQ_25Cr_Industry_19thNov26": 4,
     "LSQ_BL_10Cr_24Cr_Workable_12thNov26": 12,
     "LSQ_BL_10Cr_24Cr_Workable_16thNov26": 15,
     "LSQ_BL_10Cr_24Cr_Workable_20thNov26": 2,
@@ -1017,7 +1017,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring<br>client said turn over 40 cr interior design contractor suggest mas finance said he will confirm<br>no busy&nbsp;<br>no busy&nbsp;<br>No busy&nbsp;<br>No busy&nbsp;<br>Ring busy busy busy on another call busy busy busy busy busy direct call-busy ringing"
+      "notes": "ring<br>client said turn over 40 cr interior design contractor suggest mas finance said he will confirm<br>no busy&nbsp;<br>no busy&nbsp;<br>No busy&nbsp;<br>No busy&nbsp;<br>Ring busy busy busy on another call busy busy busy busy busy direct call-busy ringing BUSY DIRECT CALL- RINGING"
     },
     {
       "lead_id": "56680024",
@@ -1260,6 +1260,30 @@
       "notes": "ring Ring Ring RING Discuss with personal mob Owner Tushar he is trader of kapas turn over 34 cr suggest DOD roi pf inform as per policy he said have one more company his friend same business turn over 78 cr suggest PID ready to meet Monday second half gst or location will share on what's up multiple dpd is showing we can not fund"
     },
     {
+      "lead_id": "57622693",
+      "lsq_id": "",
+      "name": "Jagadish Gurjar .",
+      "phone": "—",
+      "company": "Jsc mining and infra",
+      "turnover": "Above ₹25 Cr",
+      "turnover_bucket": "₹25 – 100 Cr",
+      "channel": "SMS",
+      "campaign": "LSQ_25Cr_Industry_19thNov26",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "New Lead Lending",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": ""
+    },
+    {
       "lead_id": "56413643",
       "lsq_id": "415099",
       "name": "Pradeep Sharma .",
@@ -1281,7 +1305,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx did not pick the call call back monday Ring"
+      "notes": "cx did not pick the call call back monday Ring disc the call"
     },
     {
       "lead_id": "56414083",
@@ -1401,7 +1425,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RINGING Ring Ring"
+      "notes": "RINGING Ring Ring ring"
     },
     {
       "lead_id": "56479292",
@@ -2745,7 +2769,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx said call back later after some time no busy Ring call back"
+      "notes": "cx said call back later after some time no busy Ring call back disc the call"
     },
     {
       "lead_id": "56672392",
@@ -3129,7 +3153,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Voice mail voice mail Not reachable he is out of contry call back next week discuss with personal mob"
+      "notes": "Voice mail voice mail Not reachable he is out of country call back next week discuss with personal mob voice mail"
     },
     {
       "lead_id": "57023569",
@@ -3153,7 +3177,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "client said call back tomorrow Ring call back turn over 25 cr network issue"
+      "notes": "client said call back tomorrow Ring call back turn over 25 cr network issue call back"
     },
     {
       "lead_id": "57023578",
@@ -4809,7 +4833,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th Busy , Call Disconnect call forwarded busy call forwarded direct call - call forwarded call forwarded call forwarded RINGING call forwarded"
+      "notes": "cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th cx confirmed on whatsapp and want call back on 13th Busy , Call Disconnect call forwarded busy call forwarded direct call - call forwarded call forwarded call forwarded RINGING call forwarded call forwarded"
     },
     {
       "lead_id": "56705029",
