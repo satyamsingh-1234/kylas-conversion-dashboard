@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 06:04:10 PM",
-  "updated_at_iso": "2026-11-27T18:04:10.004746+05:30",
+  "timestamp": "27-Nov-2026 06:13:00 PM",
+  "updated_at_iso": "2026-11-27T18:13:00.473731+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -70,8 +70,8 @@
     },
     "growth": {
       "leads": "+334.9%",
-      "ms": "+194.1%",
-      "fl": "+166.7%",
+      "ms": "+205.6%",
+      "fl": "+400.0%",
       "deliv": "+529.6%"
     },
     "channel_stats": {
@@ -2097,7 +2097,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx busy in meeting details send on whatsapp"
+      "notes": "cx busy in meeting details send on whatsapp not reachable"
     },
     {
       "lead_id": "56548265",
@@ -3825,7 +3825,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING"
+      "notes": "RING ringing"
     },
     {
       "lead_id": "57469710",
