@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 05:19:06 PM",
-  "updated_at_iso": "2026-11-27T17:19:06.303486+05:30",
+  "timestamp": "27-Nov-2026 05:34:06 PM",
+  "updated_at_iso": "2026-11-27T17:34:06.458360+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -3849,7 +3849,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CALL RECEIVED AND DISCONNECTED BY CX DURING INTRODUCTION not reachable NOT REACHABLE DIRECT CALL- CX IS DRIVING AND WANT CALL BACK AT 3:30PM TODAY"
+      "notes": "CALL RECEIVED AND DISCONNECTED BY CX DURING INTRODUCTION not reachable NOT REACHABLE DIRECT CALL- CX IS DRIVING AND WANT CALL BACK AT 3:30PM TODAY ringing"
     },
     {
       "lead_id": "56673147",
