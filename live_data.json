@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 11:34:06 AM",
-  "updated_at_iso": "2026-11-27T11:34:06.804792+05:30",
+  "timestamp": "27-Nov-2026 11:49:09 AM",
+  "updated_at_iso": "2026-11-27T11:49:09.614616+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -22,11 +22,11 @@
       "In Discussion (Lending)": 18,
       "Not Interested": 54,
       "Meeting Scheduled": 34,
-      "Not Connected (New Lead Lending)": 57,
+      "Not Connected (New Lead Lending)": 58,
       "Disqualified": 27,
       "Meeting Done": 23,
       "Interested to Meet": 1,
-      "New Lead Lending": 5,
+      "New Lead Lending": 4,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
@@ -37,8 +37,8 @@
     "pid_vs_bl": {
       "pid": 185,
       "bl": 45,
-      "new_lead_total": 5,
-      "new_lead_pid": 3,
+      "new_lead_total": 4,
+      "new_lead_pid": 2,
       "new_lead_bl": 2
     }
   },
@@ -1271,7 +1271,7 @@
       "campaign": "LSQ_25Cr_Industry_19thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -1281,7 +1281,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "call forwarded"
     },
     {
       "lead_id": "56413643",
@@ -4065,7 +4065,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call received and disconnected by cx during introduction call received and disconnected by cx"
+      "notes": "call received and disconnected by cx during introduction call received and disconnected by cx busy"
     },
     {
       "lead_id": "56770512",
@@ -5097,7 +5097,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing ringing ringing ringing busy busy , Busy busy not reachable busy busy RINGING ringing"
+      "notes": "ringing ringing ringing ringing busy busy , Busy busy not reachable busy busy RINGING ringing busy direct call-ringing"
     },
     {
       "lead_id": "56876517",
