@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 01:19:05 PM",
-  "updated_at_iso": "2026-11-27T13:19:05.879478+05:30",
+  "timestamp": "27-Nov-2026 01:34:06 PM",
+  "updated_at_iso": "2026-11-27T13:34:06.984725+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -4665,7 +4665,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable"
+      "notes": "not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable not reachable"
     },
     {
       "lead_id": "56402182",
@@ -4809,7 +4809,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call received and disconnected by cx during introduction busy busy , Busy , Busy not reachable busy direct call- cx told no requirement BUSY"
+      "notes": "call received and disconnected by cx during introduction busy busy , Busy , Busy not reachable busy direct call- cx told no requirement BUSY ringing"
     },
     {
       "lead_id": "56686553",
