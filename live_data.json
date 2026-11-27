@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 06:13:00 PM",
-  "updated_at_iso": "2026-11-27T18:13:00.473731+05:30",
+  "timestamp": "27-Nov-2026 06:19:09 PM",
+  "updated_at_iso": "2026-11-27T18:19:09.119856+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -3801,7 +3801,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring RING ring"
+      "notes": "ring RING ring busy"
     },
     {
       "lead_id": "57464229",
@@ -4233,7 +4233,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back after sometime, RING, ring, ring, ring, ring, not reach"
+      "notes": "call back after sometime, RING, ring, ring, ring, ring, not reach ringing"
     },
     {
       "lead_id": "56707388",
@@ -4881,7 +4881,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring RING, ring, RING, ring"
+      "notes": "ring RING, ring, RING, ring ringing"
     },
     {
       "lead_id": "56709472",
