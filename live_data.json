@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 11:19:07 AM",
-  "updated_at_iso": "2026-11-27T11:19:07.018653+05:30",
+  "timestamp": "27-Nov-2026 11:34:06 AM",
+  "updated_at_iso": "2026-11-27T11:34:06.804792+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -19,10 +19,10 @@
     "cost_ms": "₹648",
     "cost_fl": "₹3836",
     "kylas_stages": {
-      "In Discussion (Lending)": 17,
-      "Not Interested": 53,
+      "In Discussion (Lending)": 18,
+      "Not Interested": 54,
       "Meeting Scheduled": 34,
-      "Not Connected (New Lead Lending)": 59,
+      "Not Connected (New Lead Lending)": 57,
       "Disqualified": 27,
       "Meeting Done": 23,
       "Interested to Meet": 1,
@@ -2049,7 +2049,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "TURNOVER - 5 CR AND CIBIL ISSUE call forwarded RINGING"
+      "notes": "TURNOVER - 5 CR AND CIBIL ISSUE call forwarded RINGING RINGING"
     },
     {
       "lead_id": "56544576",
@@ -2759,7 +2759,7 @@
       "campaign": "LSQ_Final_Workable_25Cr_12thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "Not Connected (New Lead Lending)",
+      "stage": "Not Interested",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -2769,7 +2769,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "cx said call back later after some time no busy Ring call back disc the call"
+      "notes": "cx said call back later after some time no busy Ring call back disc the call client said confirm on what's up not interested"
     },
     {
       "lead_id": "56672392",
@@ -2937,7 +2937,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Disc the call Disc the call"
+      "notes": "Disc the call Disc the call no busy"
     },
     {
       "lead_id": "56778313",
@@ -3839,7 +3839,7 @@
       "campaign": "LSQ_Final_Workable_25Cr_16thNov",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "Not Connected (New Lead Lending)",
+      "stage": "In Discussion (Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -3849,7 +3849,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "CALL RECEIVED AND DISCONNECTED BY CX DURING INTRODUCTION not reachable"
+      "notes": "CALL RECEIVED AND DISCONNECTED BY CX DURING INTRODUCTION not reachable NOT REACHABLE DIRECT CALL- CX IS DRIVING AND WANT CALL BACK AT 3:30PM TODAY"
     },
     {
       "lead_id": "56673147",
@@ -4017,7 +4017,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ring ring ring ringing...no response CALL FORWARDED"
+      "notes": "ring ring ring ringing...no response CALL FORWARDED RINGING"
     },
     {
       "lead_id": "56671501",
@@ -4857,7 +4857,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing not reachable ringing busy CX TOLD I AM IN GOLF COURSE AND NOT SHARE CALL BACK TIME AND DISCONNECTED THE CALL busy ,Ringing busy ringing ringing ringing direct call- cx is playing golf and disconnected the call ringing busy on another call RINGING"
+      "notes": "ringing not reachable ringing busy CX TOLD I AM IN GOLF COURSE AND NOT SHARE CALL BACK TIME AND DISCONNECTED THE CALL busy ,Ringing busy ringing ringing ringing direct call- cx is playing golf and disconnected the call ringing busy on another call RINGING RINGING"
     },
     {
       "lead_id": "56708804",
@@ -5529,7 +5529,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "busy busy switched off busy busy busy , Ringing , Ringing busy ringing ringing busy busy ringing discussed with Manish taking care of sales  last year turnover- 112 cr current year projection-150cr Nob-manufacturing and trading of steel  Pitched for PID ROI-13-155 Cx is interested to meet on wednesday in 2nd half to discuss in detail about product. meeting will be scheduled once office location received on whatsapp busy busy BUSY"
+      "notes": "busy busy switched off busy busy busy , Ringing , Ringing busy ringing ringing busy busy ringing discussed with Manish taking care of sales  last year turnover- 112 cr current year projection-150cr Nob-manufacturing and trading of steel  Pitched for PID ROI-13-155 Cx is interested to meet on wednesday in 2nd half to discuss in detail about product. meeting will be scheduled once office location received on whatsapp busy busy BUSY BUSY DIRECT CALL- BUSY"
     },
     {
       "lead_id": "56861429",
