@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 11:49:09 AM",
-  "updated_at_iso": "2026-11-27T11:49:09.614616+05:30",
+  "timestamp": "27-Nov-2026 12:04:07 PM",
+  "updated_at_iso": "2026-11-27T12:04:07.854611+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "533,729",
@@ -19,10 +19,10 @@
     "cost_ms": "₹648",
     "cost_fl": "₹3836",
     "kylas_stages": {
-      "In Discussion (Lending)": 18,
+      "In Discussion (Lending)": 19,
       "Not Interested": 54,
       "Meeting Scheduled": 34,
-      "Not Connected (New Lead Lending)": 58,
+      "Not Connected (New Lead Lending)": 57,
       "Disqualified": 27,
       "Meeting Done": 23,
       "Interested to Meet": 1,
@@ -1137,7 +1137,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call forwarded call forwarded busy ringing direct call-call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded"
+      "notes": "call forwarded call forwarded busy ringing direct call-call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded call forwarded busy direct call- busy"
     },
     {
       "lead_id": "57235009",
@@ -1185,7 +1185,7 @@
       "is_ms_nov": true,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "Ring Discuss with personal Mob account manger Chetan he is Manufeture of Pharmasutical business turn over 46-44 cr DIP Due to war situation or tariff roi pf inform as per policy he will confirm monday meeting time ring client said he will confirm dirctor call back day after tomorrow cx still not discuss with director and want to confirm tomorrow whether do a meeting or not. RINGING DIRECT CALL- RINGING ringing"
+      "notes": "Ring Discuss with personal Mob account manger Chetan he is Manufeture of Pharmasutical business turn over 46-44 cr DIP Due to war situation or tariff roi pf inform as per policy he will confirm monday meeting time ring client said he will confirm dirctor call back day after tomorrow cx still not discuss with director and want to confirm tomorrow whether do a meeting or not. RINGING DIRECT CALL- RINGING ringing ringing direct call- ringing"
     },
     {
       "lead_id": "56632599",
@@ -2231,7 +2231,7 @@
       "campaign": "LSQ_BL_10Cr_24Cr_Workable_23rdNov26",
       "is_pid": false,
       "product": "BL (10-24 Cr)",
-      "stage": "Not Connected (New Lead Lending)",
+      "stage": "In Discussion (Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -2241,7 +2241,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "switched off ringing"
+      "notes": "switched off ringing ringing direct call- firm -prop age-69"
     },
     {
       "lead_id": "56613641",
@@ -4641,7 +4641,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "ringing call received and disconnected by cx during introductions ringing ringing not reachable call received and disconnected by cx during introduction call forwarded call received and disconnected by cx during introductions"
+      "notes": "ringing call received and disconnected by cx during introductions ringing ringing not reachable call received and disconnected by cx during introduction call forwarded call received and disconnected by cx during introductions call received and disconnected by cx during introductions"
     },
     {
       "lead_id": "57200143",
