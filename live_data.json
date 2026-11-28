@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 03:34:05 PM",
-  "updated_at_iso": "2026-11-28T15:34:05.449167+05:30",
+  "timestamp": "28-Nov-2026 03:38:08 PM",
+  "updated_at_iso": "2026-11-28T15:38:08.816809+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -1434,12 +1434,12 @@
         "SMS Templated Used": "3",
         "Cost": "9826",
         "Leads": "20",
-        "MS": "9",
+        "MS": "10",
         "MD": "6",
         "FL": "3",
         "PID Campaign Name": "LSQ_Final_Workable_25Cr_16thNov",
-        "MS %": "45.0%",
-        "MD % (of MS)": "66.7%",
+        "MS %": "50.0%",
+        "MD % (of MS)": "60.0%",
         "FL % (of Leads)": "15.0%",
         "Extra_Col_24": "on Kylas Number of leads is less because duplicates leads are there"
       }
@@ -2152,6 +2152,53 @@
     },
     {
       "row_id": 39,
+      "date": "27th Nov",
+      "channel": "Email",
+      "mode": "Credflow_Engage",
+      "vertical": "Lending",
+      "msg_num": "Single Blast",
+      "seg_name": "LSQ_Industry_25Cr",
+      "camp_name": "PID_Industry_DB_27thNov26",
+      "template_name": "",
+      "message_text": "",
+      "filtered_audience": "",
+      "sent": 0,
+      "delivered": 0,
+      "cost": 0.0,
+      "leads": 7,
+      "ms": 0,
+      "md": 0,
+      "fl": 0,
+      "completed": "Yes",
+      "campaign_live": "Yes",
+      "raw_columns": {
+        "Date": "27th Nov",
+        "Mode": "Credflow_Engage",
+        "Campaign Live": "Yes",
+        "Completed Yes/No": "Yes",
+        "Vertical": "Lending",
+        "Channel": "Email",
+        "Segment": "LSQ_Industry_25Cr",
+        "Follow up - Day": "",
+        "Template Name": "",
+        "SMS/Email/WA Message templet used": "",
+        "Filtered": "",
+        "Total Data Sent": "0",
+        "Delivered": "0",
+        "SMS Templated Used": "0",
+        "Cost": "0",
+        "Leads": "7",
+        "MS": "0",
+        "MD": "0",
+        "FL": "0",
+        "PID Campaign Name": "PID_Industry_DB_27thNov26",
+        "MS %": "0",
+        "MD % (of MS)": "0",
+        "FL % (of Leads)": "0"
+      }
+    },
+    {
+      "row_id": 40,
       "date": "2nd Dec",
       "channel": "SMS",
       "mode": "",
@@ -2198,7 +2245,7 @@
       }
     },
     {
-      "row_id": 40,
+      "row_id": 41,
       "date": "2nd Dec",
       "channel": "Email",
       "mode": "",
@@ -2245,7 +2292,7 @@
       }
     },
     {
-      "row_id": 41,
+      "row_id": 42,
       "date": "2nd Dec",
       "channel": "SMS",
       "mode": "",
@@ -2292,7 +2339,7 @@
       }
     },
     {
-      "row_id": 42,
+      "row_id": 43,
       "date": "2nd Dec",
       "channel": "SMS",
       "mode": "",
@@ -2339,7 +2386,7 @@
       }
     },
     {
-      "row_id": 43,
+      "row_id": 44,
       "date": "5th Dec",
       "channel": "Email",
       "mode": "",
@@ -2386,7 +2433,7 @@
       }
     },
     {
-      "row_id": 44,
+      "row_id": 45,
       "date": "5th Dec",
       "channel": "Email",
       "mode": "",
@@ -2433,7 +2480,7 @@
       }
     },
     {
-      "row_id": 45,
+      "row_id": 46,
       "date": "7th Dec",
       "channel": "Email",
       "mode": "",
@@ -2480,7 +2527,7 @@
       }
     },
     {
-      "row_id": 46,
+      "row_id": 47,
       "date": "9th Dec",
       "channel": "SMS",
       "mode": "",
@@ -2527,7 +2574,7 @@
       }
     },
     {
-      "row_id": 47,
+      "row_id": 48,
       "date": "9th Dec",
       "channel": "SMS",
       "mode": "",
@@ -2568,53 +2615,6 @@
         "MD": "0",
         "FL": "0",
         "PID Campaign Name": "BL Under Rated Customer Less than 50 Cr",
-        "MS %": "0",
-        "MD % (of MS)": "0",
-        "FL % (of Leads)": "0"
-      }
-    },
-    {
-      "row_id": 48,
-      "date": "27th Nov",
-      "channel": "Email",
-      "mode": "Credflow_Engage",
-      "vertical": "Lending",
-      "msg_num": "Single Blast",
-      "seg_name": "LSQ_Industry_25Cr",
-      "camp_name": "PID_Industry_DB_27thNov26",
-      "template_name": "",
-      "message_text": "",
-      "filtered_audience": "",
-      "sent": 0,
-      "delivered": 0,
-      "cost": 0.0,
-      "leads": 7,
-      "ms": 0,
-      "md": 0,
-      "fl": 0,
-      "completed": "Yes",
-      "campaign_live": "Yes",
-      "raw_columns": {
-        "Date": "27th Nov",
-        "Mode": "Credflow_Engage",
-        "Campaign Live": "Yes",
-        "Completed Yes/No": "Yes",
-        "Vertical": "Lending",
-        "Channel": "Email",
-        "Segment": "LSQ_Industry_25Cr",
-        "Follow up - Day": "",
-        "Template Name": "",
-        "SMS/Email/WA Message templet used": "",
-        "Filtered": "",
-        "Total Data Sent": "",
-        "Delivered": "",
-        "SMS Templated Used": "",
-        "Cost": "0",
-        "Leads": "7",
-        "MS": "0",
-        "MD": "0",
-        "FL": "0",
-        "PID Campaign Name": "PID_Industry_DB_27thNov26",
         "MS %": "0",
         "MD % (of MS)": "0",
         "FL % (of Leads)": "0"
@@ -3619,12 +3619,12 @@
           "SMS Templated Used": "3",
           "Cost": "9826",
           "Leads": "20",
-          "MS": "9",
+          "MS": "10",
           "MD": "6",
           "FL": "3",
           "PID Campaign Name": "LSQ_Final_Workable_25Cr_16thNov",
-          "MS %": "45.0%",
-          "MD % (of MS)": "66.7%",
+          "MS %": "50.0%",
+          "MD % (of MS)": "60.0%",
           "FL % (of Leads)": "15.0%",
           "Extra_Col_24": "on Kylas Number of leads is less because duplicates leads are there"
         }
@@ -4105,7 +4105,7 @@
         }
       },
       {
-        "row_id": 48,
+        "row_id": 39,
         "date": "27th Nov",
         "channel": "Email",
         "mode": "Credflow_Engage",
@@ -4137,9 +4137,9 @@
           "Template Name": "",
           "SMS/Email/WA Message templet used": "",
           "Filtered": "",
-          "Total Data Sent": "",
-          "Delivered": "",
-          "SMS Templated Used": "",
+          "Total Data Sent": "0",
+          "Delivered": "0",
+          "SMS Templated Used": "0",
           "Cost": "0",
           "Leads": "7",
           "MS": "0",
@@ -4248,7 +4248,7 @@
         }
       },
       {
-        "row_id": 39,
+        "row_id": 40,
         "date": "2nd Dec",
         "channel": "SMS",
         "mode": "",
@@ -4295,7 +4295,7 @@
         }
       },
       {
-        "row_id": 45,
+        "row_id": 46,
         "date": "7th Dec",
         "channel": "Email",
         "mode": "",
@@ -4438,7 +4438,7 @@
         }
       },
       {
-        "row_id": 40,
+        "row_id": 41,
         "date": "2nd Dec",
         "channel": "Email",
         "mode": "",
@@ -4534,7 +4534,7 @@
         }
       },
       {
-        "row_id": 41,
+        "row_id": 42,
         "date": "2nd Dec",
         "channel": "SMS",
         "mode": "",
@@ -4581,7 +4581,7 @@
         }
       },
       {
-        "row_id": 43,
+        "row_id": 44,
         "date": "5th Dec",
         "channel": "Email",
         "mode": "",
@@ -4628,7 +4628,7 @@
         }
       },
       {
-        "row_id": 46,
+        "row_id": 47,
         "date": "9th Dec",
         "channel": "SMS",
         "mode": "",
@@ -4724,7 +4724,7 @@
         }
       },
       {
-        "row_id": 42,
+        "row_id": 43,
         "date": "2nd Dec",
         "channel": "SMS",
         "mode": "",
@@ -4771,7 +4771,7 @@
         }
       },
       {
-        "row_id": 44,
+        "row_id": 45,
         "date": "5th Dec",
         "channel": "Email",
         "mode": "",
@@ -4818,7 +4818,7 @@
         }
       },
       {
-        "row_id": 47,
+        "row_id": 48,
         "date": "9th Dec",
         "channel": "SMS",
         "mode": "",
