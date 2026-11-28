@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 03:42:57 PM",
-  "updated_at_iso": "2026-11-28T15:42:57.250711+05:30",
+  "timestamp": "28-Nov-2026 03:49:04 PM",
+  "updated_at_iso": "2026-11-28T15:49:04.602865+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -8825,7 +8825,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call back after sometime, RING, ring, ring, ring, ring, not reach ringing"
+      "notes": "call back after sometime, RING, ring, ring, ring, ring, not reach ringing RINGING"
     },
     {
       "lead_id": "56707388",
