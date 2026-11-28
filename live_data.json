@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 01:49:05 PM",
-  "updated_at_iso": "2026-11-28T13:49:05.366729+05:30",
+  "timestamp": "28-Nov-2026 02:01:42 PM",
+  "updated_at_iso": "2026-11-28T14:01:42.981203+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -21,9 +21,9 @@
     "kylas_stages": {
       "New Lead Lending": 9,
       "In Discussion (Lending)": 20,
-      "Not Interested": 55,
+      "Not Interested": 56,
       "Meeting Scheduled": 35,
-      "Not Connected (New Lead Lending)": 56,
+      "Not Connected (New Lead Lending)": 55,
       "Disqualified": 28,
       "Meeting Done": 24,
       "Interested to Meet": 1,
@@ -8203,7 +8203,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "RING ringing"
+      "notes": "RING ringing RINGING"
     },
     {
       "lead_id": "57469710",
@@ -10329,7 +10329,7 @@
       "campaign": "PID_Industry_DB_27thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "Not Connected (New Lead Lending)",
+      "stage": "Not Interested",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -10339,7 +10339,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": "call received and disconnected by cx not reachable"
+      "notes": "call received and disconnected by cx not reachable direct call discussed with director nob-international logistic company LAST YEAR TURNOVER-200 CR currrent year projection-300 cr pitched for SID ROI-13-15% NOTES: ROI SENSITIVE  CX IS LOOKING FOR 8-9% ONLY"
     },
     {
       "lead_id": "57663149",
