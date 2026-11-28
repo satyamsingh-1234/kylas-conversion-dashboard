@@ -1,12 +1,12 @@
 {
-  "timestamp": "28-Nov-2026 01:04:05 PM",
-  "updated_at_iso": "2026-11-28T13:04:05.631981+05:30",
+  "timestamp": "28-Nov-2026 01:19:05 PM",
+  "updated_at_iso": "2026-11-28T13:19:05.967089+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
     "delivered": "391,108",
     "delivery_rate": "61.3%",
-    "inbound_leads": 236,
+    "inbound_leads": 238,
     "ms": 73,
     "md": 42,
     "fl": 12,
@@ -15,7 +15,7 @@
     "file_login": 12,
     "total_spend": "₹103,589",
     "total_cost": 103589,
-    "cpl": "₹439",
+    "cpl": "₹435",
     "cost_ms": "₹1419",
     "cost_fl": "₹8632",
     "kylas_stages": {
@@ -26,7 +26,7 @@
       "Disqualified": 28,
       "Meeting Done": 24,
       "Interested to Meet": 1,
-      "New Lead Lending": 10,
+      "New Lead Lending": 12,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
@@ -35,10 +35,10 @@
       "Future Lead": 2
     },
     "pid_vs_bl": {
-      "pid": 191,
+      "pid": 193,
       "bl": 45,
-      "new_lead_total": 10,
-      "new_lead_pid": 8,
+      "new_lead_total": 12,
+      "new_lead_pid": 10,
       "new_lead_bl": 2
     }
   },
@@ -48,29 +48,29 @@
     "nov": {
       "sent": 548943,
       "deliv": 342776,
-      "leads": 193,
+      "leads": 194,
       "ms": 55,
       "md": 31,
       "fl": 10,
       "cost": 87130,
-      "cpl": 451,
+      "cpl": 449,
       "deliv_rate": 62.4,
       "cost_fl": 8713
     },
     "oct": {
       "sent": 88614,
       "deliv": 48332,
-      "leads": 43,
+      "leads": 44,
       "ms": 18,
       "md": 11,
       "fl": 2,
       "cost": 16459,
-      "cpl": 383,
+      "cpl": 374,
       "deliv_rate": 54.5,
       "cost_fl": 8230
     },
     "growth": {
-      "leads": "+348.8%",
+      "leads": "+340.9%",
       "ms": "+205.6%",
       "fl": "+400.0%",
       "deliv": "+609.2%"
@@ -84,7 +84,7 @@
           "fl": 9
         },
         "SMS": {
-          "leads": 53,
+          "leads": 54,
           "ms": 10,
           "md": 3,
           "fl": 1
@@ -104,7 +104,7 @@
           "fl": 9
         },
         "SMS": {
-          "leads": 86,
+          "leads": 88,
           "ms": 25,
           "md": 12,
           "fl": 3
@@ -280,7 +280,7 @@
       },
       {
         "camp_name": "PID_Industry_DB_27thNov26",
-        "leads": 6,
+        "leads": 7,
         "ms": 0,
         "md": 0,
         "fl": 0,
@@ -10303,6 +10303,54 @@
       "turnover_bucket": "₹25 – 100 Cr",
       "channel": "SMS",
       "campaign": "PID_Industry_DB_27thNov26",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "New Lead Lending",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": ""
+    },
+    {
+      "lead_id": "57663149",
+      "lsq_id": "",
+      "name": "V.Dinesh Kumar .",
+      "phone": "—",
+      "company": "Prabha Automotive Engineers Private Limited",
+      "turnover": "Above ₹25 Cr",
+      "turnover_bucket": "₹25 – 100 Cr",
+      "channel": "SMS",
+      "campaign": "PID_Industry_DB_27thNov26",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "New Lead Lending",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": ""
+    },
+    {
+      "lead_id": "57663316",
+      "lsq_id": "",
+      "name": ".",
+      "phone": "—",
+      "company": ". Enterprises",
+      "turnover": "Above ₹25 Cr",
+      "turnover_bucket": "₹25 – 100 Cr",
+      "channel": "SMS",
+      "campaign": "SMS",
       "is_pid": true,
       "product": "PID (>25 Cr)",
       "stage": "New Lead Lending",
