@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 03:38:08 PM",
-  "updated_at_iso": "2026-11-28T15:38:08.816809+05:30",
+  "timestamp": "28-Nov-2026 03:42:57 PM",
+  "updated_at_iso": "2026-11-28T15:42:57.250711+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -2153,8 +2153,8 @@
     {
       "row_id": 39,
       "date": "27th Nov",
-      "channel": "Email",
-      "mode": "Credflow_Engage",
+      "channel": "SMS",
+      "mode": "Cibis",
       "vertical": "Lending",
       "msg_num": "Single Blast",
       "seg_name": "LSQ_Industry_25Cr",
@@ -2173,11 +2173,11 @@
       "campaign_live": "Yes",
       "raw_columns": {
         "Date": "27th Nov",
-        "Mode": "Credflow_Engage",
+        "Mode": "Cibis",
         "Campaign Live": "Yes",
         "Completed Yes/No": "Yes",
         "Vertical": "Lending",
-        "Channel": "Email",
+        "Channel": "SMS",
         "Segment": "LSQ_Industry_25Cr",
         "Follow up - Day": "",
         "Template Name": "",
@@ -4107,8 +4107,8 @@
       {
         "row_id": 39,
         "date": "27th Nov",
-        "channel": "Email",
-        "mode": "Credflow_Engage",
+        "channel": "SMS",
+        "mode": "Cibis",
         "vertical": "Lending",
         "msg_num": "Single Blast",
         "seg_name": "LSQ_Industry_25Cr",
@@ -4127,11 +4127,11 @@
         "campaign_live": "Yes",
         "raw_columns": {
           "Date": "27th Nov",
-          "Mode": "Credflow_Engage",
+          "Mode": "Cibis",
           "Campaign Live": "Yes",
           "Completed Yes/No": "Yes",
           "Vertical": "Lending",
-          "Channel": "Email",
+          "Channel": "SMS",
           "Segment": "LSQ_Industry_25Cr",
           "Follow up - Day": "",
           "Template Name": "",
