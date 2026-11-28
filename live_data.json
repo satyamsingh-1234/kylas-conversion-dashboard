@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 03:19:09 PM",
-  "updated_at_iso": "2026-11-28T15:19:09.380474+05:30",
+  "timestamp": "28-Nov-2026 03:34:05 PM",
+  "updated_at_iso": "2026-11-28T15:34:05.449167+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -19,11 +19,11 @@
     "cost_ms": "₹1400",
     "cost_fl": "₹8632",
     "kylas_stages": {
-      "New Lead Lending": 13,
+      "New Lead Lending": 11,
       "In Discussion (Lending)": 20,
       "Not Interested": 56,
       "Meeting Scheduled": 36,
-      "Not Connected (New Lead Lending)": 55,
+      "Not Connected (New Lead Lending)": 57,
       "Disqualified": 28,
       "Meeting Done": 24,
       "Interested to Meet": 1,
@@ -37,8 +37,8 @@
     "pid_vs_bl": {
       "pid": 199,
       "bl": 45,
-      "new_lead_total": 13,
-      "new_lead_pid": 11,
+      "new_lead_total": 11,
+      "new_lead_pid": 9,
       "new_lead_bl": 2
     }
   },
@@ -10447,7 +10447,7 @@
       "campaign": "PID_Industry_DB_27thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -10457,7 +10457,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "just brief about the company Details cx is busy and want call back on monday"
     },
     {
       "lead_id": "57662585",
@@ -10567,7 +10567,7 @@
       "campaign": "PID_Industry_DB_27thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -10577,7 +10577,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "switched off"
     },
     {
       "lead_id": "57663316",
