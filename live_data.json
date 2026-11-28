@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 01:19:05 PM",
-  "updated_at_iso": "2026-11-28T13:19:05.967089+05:30",
+  "timestamp": "28-Nov-2026 01:34:04 PM",
+  "updated_at_iso": "2026-11-28T13:34:04.888868+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -22,11 +22,11 @@
       "In Discussion (Lending)": 20,
       "Not Interested": 55,
       "Meeting Scheduled": 35,
-      "Not Connected (New Lead Lending)": 52,
+      "Not Connected (New Lead Lending)": 55,
       "Disqualified": 28,
       "Meeting Done": 24,
       "Interested to Meet": 1,
-      "New Lead Lending": 12,
+      "New Lead Lending": 9,
       "File Login on LoS": 4,
       "Interested for KYC": 2,
       "Closed Lost": 1,
@@ -37,8 +37,8 @@
     "pid_vs_bl": {
       "pid": 193,
       "bl": 45,
-      "new_lead_total": 12,
-      "new_lead_pid": 10,
+      "new_lead_total": 9,
+      "new_lead_pid": 7,
       "new_lead_bl": 2
     }
   },
@@ -10233,7 +10233,7 @@
       "campaign": "PID_Industry_DB_27thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -10243,7 +10243,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "busy"
     },
     {
       "lead_id": "57662694",
@@ -10257,7 +10257,7 @@
       "campaign": "PID_Industry_DB_27thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -10267,7 +10267,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "just brief about the company details and disconnected the call in between"
     },
     {
       "lead_id": "57662695",
@@ -10281,7 +10281,7 @@
       "campaign": "PID_Industry_DB_27thNov26",
       "is_pid": true,
       "product": "PID (>25 Cr)",
-      "stage": "New Lead Lending",
+      "stage": "Not Connected (New Lead Lending)",
       "meet_time": "",
       "meet_done": "",
       "file_login": "",
@@ -10291,7 +10291,7 @@
       "is_ms_nov": false,
       "is_md_nov": false,
       "is_fl_nov": false,
-      "notes": ""
+      "notes": "ringing"
     },
     {
       "lead_id": "57662929",
