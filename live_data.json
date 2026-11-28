@@ -1,6 +1,6 @@
 {
-  "timestamp": "28-Nov-2026 02:01:42 PM",
-  "updated_at_iso": "2026-11-28T14:01:42.981203+05:30",
+  "timestamp": "28-Nov-2026 02:04:05 PM",
+  "updated_at_iso": "2026-11-28T14:04:05.739147+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
