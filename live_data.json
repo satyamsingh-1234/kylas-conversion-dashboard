@@ -1,12 +1,12 @@
 {
-  "timestamp": "28-Nov-2026 04:44:26 PM",
-  "updated_at_iso": "2026-11-28T16:44:26.285524+05:30",
+  "timestamp": "28-Nov-2026 04:49:05 PM",
+  "updated_at_iso": "2026-11-28T16:49:05.817083+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "706,049",
     "delivered": "426,629",
     "delivery_rate": "60.4%",
-    "inbound_leads": 244,
+    "inbound_leads": 245,
     "ms": 74,
     "md": 42,
     "fl": 12,
@@ -15,11 +15,11 @@
     "file_login": 12,
     "total_spend": "₹63,073",
     "total_cost": 63073,
-    "cpl": "₹258",
+    "cpl": "₹257",
     "cost_ms": "₹852",
     "cost_fl": "₹5256",
     "kylas_stages": {
-      "New Lead Lending": 11,
+      "New Lead Lending": 12,
       "In Discussion (Lending)": 20,
       "Not Interested": 56,
       "Meeting Scheduled": 36,
@@ -35,10 +35,10 @@
       "Future Lead": 2
     },
     "pid_vs_bl": {
-      "pid": 199,
+      "pid": 200,
       "bl": 45,
-      "new_lead_total": 11,
-      "new_lead_pid": 9,
+      "new_lead_total": 12,
+      "new_lead_pid": 10,
       "new_lead_bl": 2
     }
   },
@@ -60,17 +60,17 @@
     "oct": {
       "sent": 88614,
       "deliv": 48332,
-      "leads": 50,
+      "leads": 51,
       "ms": 18,
       "md": 11,
       "fl": 2,
       "cost": 8657,
-      "cpl": 173,
+      "cpl": 170,
       "deliv_rate": 54.5,
       "cost_fl": 4328
     },
     "growth": {
-      "leads": "+288.0%",
+      "leads": "+280.4%",
       "ms": "+211.1%",
       "fl": "+400.0%",
       "deliv": "+682.7%"
@@ -104,7 +104,7 @@
           "fl": 9
         },
         "SMS": {
-          "leads": 94,
+          "leads": 95,
           "ms": 26,
           "md": 12,
           "fl": 3
@@ -4997,6 +4997,30 @@
       "turnover_bucket": "₹25 – 100 Cr",
       "channel": "SMS",
       "campaign": "28/11/2026, 3:16:18 pm",
+      "is_pid": true,
+      "product": "PID (>25 Cr)",
+      "stage": "New Lead Lending",
+      "meet_time": "",
+      "meet_done": "",
+      "file_login": "",
+      "ms": false,
+      "md": false,
+      "fl": false,
+      "is_ms_nov": false,
+      "is_md_nov": false,
+      "is_fl_nov": false,
+      "notes": ""
+    },
+    {
+      "lead_id": "57670127",
+      "lsq_id": "",
+      "name": ".",
+      "phone": "—",
+      "company": ". Enterprises",
+      "turnover": "Above ₹25 Cr",
+      "turnover_bucket": "₹25 – 100 Cr",
+      "channel": "SMS",
+      "campaign": "28/11/2026, 4:45:41 pm",
       "is_pid": true,
       "product": "PID (>25 Cr)",
       "stage": "New Lead Lending",
