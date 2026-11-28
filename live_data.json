@@ -1,6 +1,6 @@
 {
-  "timestamp": "27-Nov-2026 06:58:55 PM",
-  "updated_at_iso": "2026-11-27T18:58:55.575400+05:30",
+  "timestamp": "28-Nov-2026 10:19:05 AM",
+  "updated_at_iso": "2026-11-28T10:19:05.661177+05:30",
   "sync_source": "Kylas CRM REST API (api.kylas.io/v1) - Live Auto-Sync",
   "kpis": {
     "total_sent": "637,557",
@@ -7635,7 +7635,7 @@
       "is_ms_nov": true,
       "is_md_nov": true,
       "is_fl_nov": false,
-      "notes": "meeting done . client will share docs on 21st November"
+      "notes": "meeting done . client will share docs on 30th November"
     },
     {
       "lead_id": "57051673",
